@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://a01aaa.github.io</id>
     <title>饮冰室</title>
-    <updated>2020-05-04T18:02:53.822Z</updated>
+    <updated>2020-05-04T18:30:17.883Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://a01aaa.github.io"/>
     <link rel="self" href="https://a01aaa.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://a01aaa.github.io/images/avatar.png</logo>
     <icon>https://a01aaa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 饮冰室</rights>
+    <entry>
+        <title type="html"><![CDATA[吴阿姨]]></title>
+        <id>https://a01aaa.github.io/post/wu-a-yi/</id>
+        <link href="https://a01aaa.github.io/post/wu-a-yi/">
+        </link>
+        <updated>2020-05-04T18:24:39.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="视频">视频</h1>
+<p><video src="C:\Users\lenovo\Desktop\文件\视频制作\哥伦比亚电影开头.mp4"></video></p>
+<p>同时，可以这样，</p>
+<p><img src="C:%5CUsers%5Clenovo%5CDesktop%5C%E6%96%87%E4%BB%B6%5C%E5%8A%A8%E5%9B%BE%5C%E5%85%AB%E8%88%9E.gif" alt="八舞" loading="lazy"><br>
+🤓</p>
+<p>4444<img src="https://a01aaa.github.io/post-images/1588616714645.gif" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://a01aaa.github.io/post/hello-gridea/</id>
