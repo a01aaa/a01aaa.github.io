@@ -2137,15 +2137,11 @@ pre > span.copy-code:hover {
     .next-md-body a:hover, .friends-box a:hover {
       color: #f8f9fa;
       border-bottom-color: #f8f9fa;
-    }.nav-item a {
-        color: #555;
-      }
-      .nav-item-active a {
-        color: #555;
-        border-bottom: 1px solid #555 !important;
+    }
+      .nav-item a {
+        color:  #555;
       }.nav-item a:hover {
         color: #555;
-        border-bottom: 1px solid #555 !important;
       }.nav-item-active {
       background: #f9f9f9e5;
     }
