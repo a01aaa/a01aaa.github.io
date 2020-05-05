@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://a01aaa.github.io</id>
     <title>饮冰室</title>
-    <updated>2020-05-05T15:30:38.447Z</updated>
+    <updated>2020-05-05T15:44:18.050Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://a01aaa.github.io"/>
     <link rel="self" href="https://a01aaa.github.io/atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://a01aaa.github.io/images/avatar.png</logo>
     <icon>https://a01aaa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 饮冰室</rights>
+    <entry>
+        <title type="html"><![CDATA[《波兰来客》——北岛]]></title>
+        <id>https://a01aaa.github.io/post/lesslessbo-lan-lai-ke-greatergreater-bei-dao/</id>
+        <link href="https://a01aaa.github.io/post/lesslessbo-lan-lai-ke-greatergreater-bei-dao/">
+        </link>
+        <updated>2020-05-05T15:33:21.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="波兰来客">波兰来客</h1>
+<h2 id="北岛">——北岛</h2>
+<p>​        那时我们有梦，</p>
+<p>​        关于文学，</p>
+<p>​        关于爱情，</p>
+<p>​        关于穿越世界的旅行。</p>
+<p>​        如今我们深夜饮酒，</p>
+<p>​        杯子碰到一起，</p>
+<p>​        都是梦破碎的声音。</p>
+<hr>
+<figure data-type="image" tabindex="1"><img src="https://a01aaa.github.io/post-images/1588693119783.jpg" alt="农大南校窗户外傍晚景象，经常在此望着窗外流连忘返" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Typora For Markdown 语法]]></title>
         <id>https://a01aaa.github.io/post/typora-for-markdown-yu-fa/</id>
@@ -143,16 +162,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4333337"><label class="task-list-item-label" for="task-item-4333337"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2949240"><label class="task-list-item-label" for="task-item-2949240"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6391530"><label class="task-list-item-label" for="task-item-6391530"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7117417"><label class="task-list-item-label" for="task-item-7117417"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1721380"><label class="task-list-item-label" for="task-item-1721380"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6635231"><label class="task-list-item-label" for="task-item-6635231"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6784072"><label class="task-list-item-label" for="task-item-6784072"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5706055"><label class="task-list-item-label" for="task-item-5706055"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
