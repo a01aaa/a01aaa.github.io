@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://a01aaa.github.io</id>
     <title>饮冰室</title>
-    <updated>2020-05-05T16:29:33.338Z</updated>
+    <updated>2020-05-05T16:57:36.387Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://a01aaa.github.io"/>
     <link rel="self" href="https://a01aaa.github.io/atom.xml"/>
@@ -172,16 +172,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6328854"><label class="task-list-item-label" for="task-item-6328854"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1699067"><label class="task-list-item-label" for="task-item-1699067"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4882747"><label class="task-list-item-label" for="task-item-4882747"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6073441"><label class="task-list-item-label" for="task-item-6073441"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2720473"><label class="task-list-item-label" for="task-item-2720473"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4525146"><label class="task-list-item-label" for="task-item-4525146"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1735122"><label class="task-list-item-label" for="task-item-1735122"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5525103"><label class="task-list-item-label" for="task-item-5525103"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
@@ -290,6 +290,31 @@ Typroa 推荐使用两个*号。</p>
 <hr>
 <p>𝓘 𝓵𝓸𝓿𝓮 𝔂𝓸𝓾 𝓽𝓱𝓻𝓮𝓮 𝓽𝓱𝓸𝓾𝓼𝓪𝓷𝓭 𝓽𝓲𝓶𝓮𝓼❤</p>
 <p>🌹</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[揭开博主大大神秘的面纱~]]></title>
+        <id>https://a01aaa.github.io/post/about/</id>
+        <link href="https://a01aaa.github.io/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<p>欢迎来到我的博客小站呀，很高兴遇见你！🤝</p>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>·本站是  Mr.李  打造的小小站点，目的是为了记录美好生活~</p>
+<p>·纯小白一个，做的不好还请多多指教，如果有大佬能互相交流的话就更好啦~🤓</p>
+<p>·话说这个网站的界面手机端跟电脑端差距好大，手机端好多地方都显示不出来。自己辛辛苦苦设计的，在手机上竟然显示不出来，真的是太心痛了😭如果可以的话，大家还是尽量通过电脑访问我的小站来欣赏吧~</p>
+<p>我往文章里置入了Valine的评论系统，大家可以畅所欲言地评论鸭~😊不过还有点bug没太弄明白，如果有哪位大佬看到了这，还请希望通过下面的联系方式联系我，一定感激不尽！😘</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>·博主当然是  Mr.李 啦！笔名：金都三十八画生😁华东地区某滨海小城里的男生一枚😎</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<p>·喜欢蓝莲花，喜欢玩，喜欢机械、程序、代码，喜欢搞各种稀奇古怪的东西，也喜欢自己动手做各种东西（包括本小站哦<sub>）当然，更喜欢你</sub>🤞<br>
+·感觉自己是复合型性格，文艺、浪漫、敏感、又带些许涩会，斯文败类？😜哈哈哈哈哈哈哈哈哈😄</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<p>别光默默留下脚印呀<sub>我的博客首页（电脑端）有我详细的联系方式，欢迎骚扰呀🤞</sub>~~<br>
+·📧E-mail：a01a@foxmail.com<br>
+·QQ：1094292245<br>
+·WeChat：liuqingA001<br>
+...And So On...</p>
 ]]></content>
     </entry>
 </feed>
