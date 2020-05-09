@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://a01aaa.github.io</id>
     <title>饮冰室</title>
-    <updated>2020-05-09T09:52:20.847Z</updated>
+    <updated>2020-05-09T10:51:08.445Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://a01aaa.github.io"/>
     <link rel="self" href="https://a01aaa.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://a01aaa.github.io/images/avatar.png</logo>
     <icon>https://a01aaa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 饮冰室</rights>
+    <entry>
+        <title type="html"><![CDATA[分享一个AI论文去重小软件]]></title>
+        <id>https://a01aaa.github.io/post/fen-xiang-yi-ge-ai-lun-wen-qu-chong-xiao-ruan-jian/</id>
+        <link href="https://a01aaa.github.io/post/fen-xiang-yi-ge-ai-lun-wen-qu-chong-xiao-ruan-jian/">
+        </link>
+        <updated>2020-05-09T10:42:11.000Z</updated>
+        <content type="html"><![CDATA[<p>​		最近发现了一个<strong>AI论文去重</strong>小软件（电脑版的）😀，分享给大家，作者上个月刚开发的，大家自己去他博客里下载吧，最近更新还挺勤快的，我在这就不放文件下载链接了。地址是<a href="https://ptype.info/2020/04/17/ai/"><strong>花生AI论文去重</strong></a>     https://ptype.info/2020/04/17/ai/<br>
+<img src="https://a01aaa.github.io/post-images/1589021238578.png" alt="" loading="lazy"><br>
+​		🙋最近需要写论文的同学可以试一下，我论文还没开始写所以就没法试试效果怎么样了。大家用过以后可以在这篇文章底下留言使用效果。</p>
+<p>​		当然，如果大家还有什么好的降重或者查重工具，私发或者评论给我😘，谢谢哈哈哈哈哈🤓</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《波兰来客》——北岛]]></title>
         <id>https://a01aaa.github.io/post/lesslessbo-lan-lai-ke-greatergreater-bei-dao/</id>
@@ -172,16 +184,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8242242"><label class="task-list-item-label" for="task-item-8242242"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1802896"><label class="task-list-item-label" for="task-item-1802896"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9360937"><label class="task-list-item-label" for="task-item-9360937"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8077788"><label class="task-list-item-label" for="task-item-8077788"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3556404"><label class="task-list-item-label" for="task-item-3556404"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9133825"><label class="task-list-item-label" for="task-item-9133825"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9346223"><label class="task-list-item-label" for="task-item-9346223"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6827111"><label class="task-list-item-label" for="task-item-6827111"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
