@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://a01aaa.github.io</id>
     <title>饮冰室</title>
-    <updated>2020-05-08T10:15:05.803Z</updated>
+    <updated>2020-05-09T09:16:06.234Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://a01aaa.github.io"/>
     <link rel="self" href="https://a01aaa.github.io/atom.xml"/>
@@ -172,16 +172,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9723885"><label class="task-list-item-label" for="task-item-9723885"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3072418"><label class="task-list-item-label" for="task-item-3072418"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5189806"><label class="task-list-item-label" for="task-item-5189806"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1698723"><label class="task-list-item-label" for="task-item-1698723"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3165654"><label class="task-list-item-label" for="task-item-3165654"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1542336"><label class="task-list-item-label" for="task-item-1542336"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5706028"><label class="task-list-item-label" for="task-item-5706028"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5758587"><label class="task-list-item-label" for="task-item-5758587"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
@@ -315,6 +315,8 @@ Typroa 推荐使用两个*号。</p>
 ·📧E-mail：a01a@foxmail.com<br>
 ·QQ：1094292245<br>
 ·WeChat：liuqingA001<br>
+·Telegram：https://t.me/a_0001<br>
+·Facebook：https://www.facebook.com/a01aaa<br>
 ...And So On...</p>
 ]]></content>
     </entry>
