@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://a01aaa.github.io</id>
     <title>饮冰室</title>
-    <updated>2020-05-09T10:55:17.519Z</updated>
+    <updated>2020-05-09T15:02:53.500Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://a01aaa.github.io"/>
     <link rel="self" href="https://a01aaa.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://a01aaa.github.io/images/avatar.png</logo>
     <icon>https://a01aaa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 饮冰室</rights>
+    <entry>
+        <title type="html"><![CDATA[恭喜我们宿舍云毕业成功！]]></title>
+        <id>https://a01aaa.github.io/post/gong-xi-wo-men-su-she-yun-bi-ye-cheng-gong/</id>
+        <link href="https://a01aaa.github.io/post/gong-xi-wo-men-su-she-yun-bi-ye-cheng-gong/">
+        </link>
+        <updated>2020-05-09T14:43:37.000Z</updated>
+        <content type="html"><![CDATA[<p>2020届毕业生可以说是最惨的一级了吧？🤦‍♂<br>
+没有送别、没有跳蚤市场、没有聚餐、没有散伙饭、可能还没有<strong>毕业照</strong>和<strong>毕业典礼</strong>😭😭😭<br>
+没有学弟学妹，等回到学校，急匆匆地办理完毕业，就自己孤独地一个人踏上远方的路。😪<br>
+几个兄弟本来都约定好了这学期回去一块去吃点喝点，这下可真是遥遥无期了……<br>
+等大家都毕了业，各奔东西，天南海北，不出意外的话，有些人一辈子是不会再相见了<br>
+看到网上大家都在晒云毕业照苦中作乐，我也试了试😂，给我们宿舍P了个<strong>云毕业照</strong>​📷​<br>
+恭喜我们宿舍云毕业成功哈哈哈哈哈哈哈哈<br>
+<img src="https://a01aaa.github.io/post-images/1589036218275.jpg" alt="云毕业照" loading="lazy"><br>
+<strong>桃李春风一杯酒，江湖夜雨十年灯。</strong><br>
+祝朋友们都前程似锦！​🌹​</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[分享一个AI论文去重小软件]]></title>
         <id>https://a01aaa.github.io/post/fen-xiang-yi-ge-ai-lun-wen-qu-chong-xiao-ruan-jian/</id>
@@ -184,16 +202,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6816512"><label class="task-list-item-label" for="task-item-6816512"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8258844"><label class="task-list-item-label" for="task-item-8258844"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-601978"><label class="task-list-item-label" for="task-item-601978"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3186128"><label class="task-list-item-label" for="task-item-3186128"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8746612"><label class="task-list-item-label" for="task-item-8746612"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3999388"><label class="task-list-item-label" for="task-item-3999388"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8177300"><label class="task-list-item-label" for="task-item-8177300"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3229585"><label class="task-list-item-label" for="task-item-3229585"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
