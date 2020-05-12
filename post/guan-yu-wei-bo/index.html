@@ -8,7 +8,7 @@
 <meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="LXL&#39;s Blog.">
 <meta name="theme-color" content="#66d9e8">
-<title>随笔杂谈（转自微博） | 饮冰室</title>
+<title>关于微博 | 饮冰室</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1589302767544">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/gemini.css">
@@ -47,7 +47,7 @@
   })();
 </script>
 
-  <meta name="description" content="随笔杂谈（转自微博）" />
+  <meta name="description" content="关于微博" />
   <meta name="keywords" content="日常·随笔" />
 </head>
 
@@ -192,8 +192,7 @@
       <div class="sidebar-body gemini" id="sidebar_body">
         
           
-            <div class="post-side-meta" id="post_side_meta">
-              
+            
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
@@ -274,197 +273,6 @@
 
 
 </div>
-            </div>
-            <div class="post-toc sidebar-body-active" id="post_toc" style="opacity: 1;">
-              <div class="toc-box right-motion">
-  <div class="toc-wrapper auto-number auto"
-    id="toc_wrapper">
-    <ul class="markdownIt-TOC">
-<li><a href="#%E4%B8%80-%E5%85%B3%E4%BA%8E%E5%85%B4%E8%B6%A3">一、关于兴趣</a></li>
-<li><a href="#%E4%BA%8C-%E5%85%B3%E4%BA%8Eblog">二、关于Blog</a>
-<ul>
-<li><a href="#1-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%83%B3%E7%94%A8blog">1、为什么想用Blog.</a></li>
-<li><a href="#2-%E5%85%B3%E4%BA%8Eblog%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95">2、关于Blog的一些想法.</a></li>
-</ul>
-</li>
-</ul>
-
-  </div>
-</div>
-
-<script>
-
-  let lastTop = 0, lList = [], hList = [], postBody, lastIndex = -1;
-  let active = 'active-show', activeClass = 'active-current';
-  let tocWrapper = document.querySelector('#toc_wrapper');
-  let tocContent = tocWrapper.children[0];
-  let autoNumber = tocWrapper && tocWrapper.classList.contains('auto-number');
-
-  function addTocNumber(elem, deep) {
-    if (!elem) {
-      return;
-    }
-    let prop = elem.__proto__;
-
-    if (prop === HTMLUListElement.prototype) {
-      for (let i = 0; i < elem.children.length; i++) {
-        addTocNumber(elem.children[i], deep + (i + 1) + '.');
-      }
-    } else if (prop === HTMLLIElement.prototype) {
-      // 保存li元素
-      if (elem.children[0].__proto__ === HTMLAnchorElement.prototype) {
-        lList.push(elem);
-      }
-      for (let i = 0; i < elem.children.length; i++) {
-        let cur = elem.children[i];
-        if (cur.__proto__ === HTMLAnchorElement.prototype) {
-          if (autoNumber) {
-            cur.text = deep + ' ' + cur.text;
-          }
-        } else if (cur.__proto__ === HTMLUListElement.prototype) {
-          addTocNumber(cur, deep);
-        }
-      }
-    }
-  }
-
-  function removeParentActiveClass() {
-    let parents = tocContent.querySelectorAll('.' + active)
-    parents.forEach(function (elem) {
-      elem.classList.remove(active);
-    });
-  }
-
-  function addActiveClass(index) {
-    if (index >= 0 && index < hList.length) {
-      lList[index].classList.add(activeClass);
-    }
-  }
-
-  function removeActiveClass(index) {
-    if (index >= 0 && index < hList.length) {
-      lList[index].classList.remove(activeClass);
-    }
-  }
-
-  function addActiveLiElemment(elem, parent) {
-    if (!elem || elem === parent) {
-      return;
-    } else {
-      if (elem.__proto__ === HTMLLIElement.prototype) {
-        elem.classList.add(active);
-      }
-      addActiveLiElemment(elem.parentElement, parent);
-    }
-  }
-
-  function showToc() {
-    if (tocWrapper) {
-      postBody = document.querySelector('#post_body');
-      for (let i = 0; i < postBody.children.length; i++) {
-        if (postBody.children[i].__proto__ === HTMLHeadingElement.prototype) {
-          hList.push(postBody.children[i]);
-        }
-      }
-      if (tocWrapper.classList.contains('compress')) {
-        tocContent.classList.add('closed');
-      } else if (tocWrapper.classList.contains('no_compress')) {
-        tocContent.classList.add('expanded');
-      } else {
-        if (hList.length > 10) {
-          active = 'active-hidden'
-          tocContent.classList.add('closed');
-        } else {
-          tocContent.classList.add('expanded');
-        }
-      }
-    }
-  }
-
-  (function () {
-    // 处理不是从#一级标题开始目录
-    if (tocContent.children.length === 1 && tocContent.children[0].__proto__ === HTMLLIElement.prototype) {
-      let con = tocContent.children[0].children[0];
-      tocContent.innerHTML = con.innerHTML;
-    }
-    let markdownItTOC = document.querySelector('.markdownIt-TOC');
-    let innerHeight = window.innerHeight;
-    markdownItTOC.style = `max-height: ${innerHeight - 80 > 0 ? innerHeight - 80 : innerHeight}px`
-    addTocNumber(tocContent, '');
-  })();
-
-  document.addEventListener('scroll', function (e) {
-    if (lList.length <= 0) {
-      return;
-    }
-    let scrollTop = document.scrollingElement.scrollTop + 10;
-    let dir;
-
-    if (lastTop - scrollTop > 0) {
-      dir = 'up';
-    } else {
-      dir = 'down';
-    }
-
-    lastTop = scrollTop;
-    if (scrollTop <= 0) {
-      if (lastIndex >= 0 && lastIndex < hList.length) {
-        lList[lastIndex].classList.remove(activeClass);
-      }
-      return;
-    }
-
-    let current = 0, hasFind = false;
-    for (let i = 0; i < hList.length; i++) {
-      if (hList[i].offsetTop > scrollTop) {
-        current = i;
-        hasFind = true;
-        break;
-      }
-    }
-    if (!hasFind && scrollTop > lList[lList.length - 1].offsetTop) {
-      current = hList.length - 1;
-    } else {
-      current--;
-    }
-    if (dir === 'down') {
-      if (current > lastIndex) {
-        addActiveClass(current);
-        removeActiveClass(lastIndex)
-        lastIndex = current;
-        removeParentActiveClass();
-        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
-      }
-    } else {
-      if (current < lastIndex) {
-        addActiveClass(current);
-        removeActiveClass(lastIndex);
-        lastIndex = current;
-        removeParentActiveClass();
-        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
-      }
-    }
-  });
-
-
-  window.addEventListener('load', function () {
-    showToc();
-    document.querySelector('#sidebar').style = 'display: block;';
-    tocWrapper.classList.add('toc-active');
-    setTimeout(function () {
-      if ("createEvent" in document) {
-        let evt = document.createEvent("HTMLEvents");
-        evt.initEvent("scroll", false, true);
-        document.dispatchEvent(evt);
-      }
-      else {
-        document.fireEvent("scroll");
-      }
-    }, 500)
-  })
-
-</script>
-            </div>
           
         
       </div>
@@ -552,8 +360,8 @@
           <div class="section bg-color post post-page">
             <header class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="https://a01aaa.github.io/post/sui-bi-za-tan/">
-      随笔杂谈（转自微博）
+    <a class="post-title-link" href="https://a01aaa.github.io/post/guan-yu-wei-bo/">
+      关于微博
     </a>
   </h1>
   <div class="post-meta">
@@ -561,7 +369,7 @@
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
-      <span>2020-05-05</span>
+      <span>2020-05-12</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
@@ -580,17 +388,17 @@
     
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
-      <span>9分钟</span>
+      <span>3分钟</span>
     </span>
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>2624<span class="pc-show">字数</span></span>
+      <span>784<span class="pc-show">字数</span></span>
     </span>
     
     
     
-    <span id="/post/sui-bi-za-tan/" data-flag-title="随笔杂谈（转自微博）" class="meta-item pc-show leancloud_visitors">
+    <span id="/post/guan-yu-wei-bo/" data-flag-title="关于微博" class="meta-item pc-show leancloud_visitors">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-eye"></i>
       <span>浏览量：<span class="leancloud-visitors-count"></span></span>
@@ -599,63 +407,21 @@
   </div>
 </header>
             <div class="post-body next-md-body" id="post_body">
-              <h1 id="一-关于兴趣">一、关于兴趣</h1>
-<p>​</p>
-<p>​    因为这疫情，赋闲这么长时间在家，之前一直没时间玩、没时间做的都在这无聊的当儿一一玩了个遍，摸了个透。</p>
-<p>​     最后我发现我真的是对植物一点都不感兴趣，可能只对冷冰冰的机械和程序、代码感兴趣，我想我当初真的应该去机电学院或者信院。不得不说，确实，兴趣才是最好的老师。</p>
-<p>​     俗话说，女怕嫁错郎，男怕入错行😂 。不得不说，专业上写的那几个字对一个人发展的束缚还是蛮大的。马上就要毕业了，可能这神圣的大学四年也就成了人生中永远的一点遗憾了吧。之前一直不好意思或者是碍于面子不会这么直接直白地说出来承认，今天在这敢这么说出来也算是向前跨出了一步吧，彻底迈出了一个久滞的圈。话说，既然自己没有那种读了大学和专业以后果断放弃并回去重考、重新选择的勇气，那就走好前方的路吧还是。再细想想，谁又能做到自己做的就是自己喜欢的呢，不论是学习还是以后的工作、生活或者其他。随心所欲应该是每个人内心中的奢望吧。所以说，还是理性平常看待吧。（不想多展开细讲了）</p>
-<h1 id="二-关于blog">二、关于Blog</h1>
-<blockquote>
-<p>最近迷上了博客（Blog），想搭建一个自己的博客网站。话说博客这东西，十几年前很流行，现在愈发变得越来越小众化了，而且门槛也比较高。</p>
-</blockquote>
-<h2 id="1-为什么想用blog">1、为什么想用Blog.</h2>
-<p>​     先说说自己为什么想要用博客吧，我一直想有一个可以写自己所感所想的地方，灵活度要高，而且属于自己，不会被打扰。乐趣在于记录生活，而且也不在乎写了会立马被别人看到。它就安安静静的在那里，如果有幸能让您感兴趣来看看的话，在随便一个浏览器地址栏里输入我的地址就能进。它既可以分享东西给大家，也可以写自己的私密内容。博客就像自己的一片小天地，把它从无到有一点一滴地建立起来，可以随时更改它的格调和布局，不用拘泥于各种形式和条条框框。更不会被删帖和禁言。下面列几个最近发现的整的还比较不错的博客： <a href="https://www.zsxcool.com/">戳这里：博客1</a> <a href="https://yeming.site/">戳这里：博客2</a> <a href="https://blog.ixk.me/">戳这里：博客3</a></p>
-<p>​     有人会问，你怎么不用微博呢？</p>
-<p>​     首先，“微博”即“微型博客”的简称，它在做到方便的同时也牺牲了博客本身的美。它作为大众增强互动的工具还是不错的，但是在形式上也只能算是“微”博。一、我不喜欢强行把文字和图片割裂开，先写完一堆话，下面再加上几个图；二、就普通发微博而言，格式的选择太过于单调，没有字体格式（颜色、字体、<strong>加粗</strong>、<em>倾斜</em>、等等），也没有段落格式（大小标题、首行缩进、居中、背景、等等）（现在编辑的头条文章都没有🙃 ），有人会说，这样是方便了书写，随心所欲，不繁琐，我就发个动态还管它那么多。确实如此，可是，每个人写出来的都是这样的格式，乱七八糟堆上几个字，再最后附上个六九图；要不就是加上几个＃话题，再塞上几行字，下面弄上个视频，感觉还不如小学生在Word上写的观后感作文。图片和视频不能共存你告诉我是为什么？非要发两次才行？如今的互联网产品同质化太过于严重，而且操作简单弱智化，功能阉割化娱乐化，感觉都是同质于在发微信朋友圈，只不过是换了个圈子，换了个软件，修改了几项功能。不过也正常，在这个娱乐至死的时代，只要让用户觉得开心，简单，快乐，沉溺就好了呗，别的提升先不管，先把娱乐类的直播、聊天、热度，互动给搞上去。就类似于国产车，实打实的硬件功能不给改进，车里的娱乐、影音啥的全弄上。</p>
-<p>​     其次，我感觉我现在越来越不想用微博了，不是掉进了粪坑就是掉进了🐔 窝……微博太浮躁了，功利心太强，戾气太重，文化垃圾太多。全都浮在热度上，沉不下去。就像初中高中的班主任常说的那样，“光景永远是看不够的”。而且我也不想追这个⭐ 那个⭐ 的。虚假的东西太多太多。我最恶心的就是不知廉耻的各种虚假人设。雪崩的时候没有一片雪花是无辜的。这方面我还是比较欣赏于大爷。好了好了，不谈圈，没有意义。</p>
-<table>
-<thead>
-<tr>
-<th><a href="https://1.bp.blogspot.com/-w5foQ9RKjDQ/Xq_fKeGHdQI/AAAAAAAAAF4/Ul5YluLBdB0yhJv12qaZ5vQC-pjYq-UiQCLcBGAsYHQ/s1600/62c2bc1c187d467faecd32f71fb0a597.jpeg"><img src="https://1.bp.blogspot.com/-w5foQ9RKjDQ/Xq_fKeGHdQI/AAAAAAAAAF4/Ul5YluLBdB0yhJv12qaZ5vQC-pjYq-UiQCLcBGAsYHQ/s400/62c2bc1c187d467faecd32f71fb0a597.jpeg" alt="img" loading="lazy"></a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>麻麻～王源抽烟🚬 好帅啊！我也要学！</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p>“工学者，巧心，劳力，造器物”</p>
-</blockquote>
-<h2 id="2-关于blog的一些想法">2、关于Blog的一些想法.</h2>
-<p>​    额，扯远了，我的初步想法是，我想在我的博客网站上，一方面能够记录我的生活，每天写点小随笔，而且能在文章中配上拍的照片或者图片，写点心得体会；另一方面，我想建一个可以实时添加更新的带时间轴那种相册，可以设置每个相册的主题，进去可以根据时间轴上标注的事件名称纵览都发生过什么有趣的事情，而且每个相册还可以添加背景音乐还有其他等等的小部件啥的。我在想，我要是大一就开始弄就好了，能够把整个大学四年系统地记录下来。哈哈哈，人生总是充满着各种遗憾，时光也总是不能重来。</p>
-<p>​     其他功能的话还没想好，可以根据需要再往上加。我看他们好多都在博客上分享各种小技巧和实用功能啥的，我感觉就我这水平，我还是往后稍稍吧😂</p>
-<p>​</p>
-<p>​    每次看到网上那些大神们的精美的博客，简直不能再羡慕。但是对于我这种学农的小白来说，真的可以说是心有余而力不足。理想很丰满，现实很骨感。一方面，对各种计算机语言和代码一窍不通，如看天书；另一方面，搭建一个个人博客，不仅前期得租域名，买服务器，买图床……买了域名还得去备案……而且还需要用Worldpress等平台开发博客。想想我头就大了。而且，一入侯门深似海，就跟会员一样，一旦打算开始每年租着域名了，就不可能停租了，不然域名一没，网站也就打不开了，长时间打理的心血也付之东流。我还是在纠结到底要不要整起来，又怕自己是心血来潮，当代恶臭年轻人，做啥也坚持不了多久。</p>
-<p>​     之前也写过几篇博客，用的是Google的Blogger平台，基本功能比较完备，但还是略显简陋，而且最重要的一点是撰写和浏览都得翻墙，太不方便，而且评论功能做的也不太好。地址是https://a01aaa.blogspot.com/ <a href="https://a01aaa.blogspot.com/">戳这里可直达我的Google Blogger❤️ </a> 如果有谁感兴趣的话可以上去看看😂 没怎么太完善，而且用的是Google Blogger自带的网址，没有租自己的域名，也算是弃用了。注意需要科学上网。</p>
-<figure data-type="image" tabindex="1"><a href="https://1.bp.blogspot.com/-TUyf5oziI7c/Xq_fkeBiyxI/AAAAAAAAAGA/fiFklvc8pRc_OHl5FJieeykKaGXxjiwXACLcBGAsYHQ/s1600/1576203380178.png"><img src="https://1.bp.blogspot.com/-TUyf5oziI7c/Xq_fkeBiyxI/AAAAAAAAAGA/fiFklvc8pRc_OHl5FJieeykKaGXxjiwXACLcBGAsYHQ/s320/1576203380178.png" alt="img" loading="lazy"></a></figure>
-<p>最近看了一些教程，找到了一些替代办法，比如可以用Gridea和GitHub Pages或者GitHub+Hexo搭建个人博客，但也还是很麻烦😷 唉……算了，Blog这个问题先搁置吧，等以后有空了再说吧，先慢慢了解学着基础知识，如果哪天我的博客真建成了，一定通知大家😂 。不过也千万别抱太大希望，说不定第二天我就忘了😂 又回到了“游戏它不香吗，抖音它不香吗”的咸鱼状态了😂 。</p>
-<p>​     我感觉我就是那种，一有点什么想法就想写下来。相对于拍视频，拍Vlog，我觉得文字这东西更让人着迷，写完一篇文章也有助于自己思路的整理和各方面的提升，真的是可以将其作为一种享受的过程。但是如果是写自己不愿意写的东西，比如论文，＊＊汇报，总结等等的，那就另当别论了。</p>
-<hr>
-<p>​     最后，给大家分享个有趣的东西，最近在研究域名的时候，发现现在各种中文域名也可以了哎😂</p>
-<figure data-type="image" tabindex="2"><a href="https://1.bp.blogspot.com/-h73zghqu7Ys/Xq_fxsfPwpI/AAAAAAAAAGE/NdGLlR-b3VkHg99lQsZ_wcDcWWRoa9AOACLcBGAsYHQ/s1600/Snipaste_2020-05-04_15-58-57.png"><img src="https://1.bp.blogspot.com/-h73zghqu7Ys/Xq_fxsfPwpI/AAAAAAAAAGE/NdGLlR-b3VkHg99lQsZ_wcDcWWRoa9AOACLcBGAsYHQ/s320/Snipaste_2020-05-04_15-58-57.png" alt="img" loading="lazy"></a></figure>
-<p>​    比如  .我爱你 这个域名就很有意思，很多用这个域名建的情侣空间，这几天找到的很多私人的都失效了，不知道是因为分手了还是咋了😂 只找到以下几个：</p>
-<p>张国荣.我爱你</p>
-<p>爹娘.我爱你</p>
-<p>路祥.我爱你</p>
-<p>​     这三个随便一个复制（直接打字也行，字也不多）到浏览器地址栏里面都能直接打开，有点意思哈👍🏻 大家感兴趣的可以试试😂</p>
-<hr>
-<p>​     唠唠叨叨写了这么多，净说了些没用的😂。 谁要是看到这里了应该都觉得无聊死了吧。在微博这个头条文章里写东西是真的累，什么格式也设置不了，光标还老是乱跳，一不小心字就打到别的地方去了……体验极差。我还是早日把我的博客提上日程吧……要不是没建好也不至于在这费这劲。而且这也没有表情可以选择……前面的表情都是输入法自带的……绝了。</p>
-<hr>
-<p>​     最后，今天是五四青年节哎，在这里祝每一个看到这篇文章的朋友节日快乐～也希望这疫情早日结束😷 ，因为这疫情而耽误的人和事太多太多了。</p>
-<p>​    武汉加油！湖北加油！祖国加油！</p>
-<p>​    顺遂</p>
-<p>时祺</p>
-<p>2020.5.4</p>
-<hr>
-<p>𝓘 𝓵𝓸𝓿𝓮 𝔂𝓸𝓾 𝓽𝓱𝓻𝓮𝓮 𝓽𝓱𝓸𝓾𝓼𝓪𝓷𝓭 𝓽𝓲𝓶𝓮𝓼❤</p>
-<p>🌹</p>
+              <p><img src="https://a01aaa.github.io/post-images/1589298618416.jpg" alt="" loading="lazy"><br>
+咱也不知道天天的都谁视奸我微博，好友才占了一成，也是绝了。</p>
+<!-- more -->
+<p>谁愿意看就看吧，就像今晚上的新闻联播所说，“他横由他横，明月照大江”。<br>
+“除山中贼易，除心中贼难”——王阳明<br>
+之前跟谁说过来着，还不信，说我总把别人往坏的方面想<br>
+道不同不相为谋，酒逢知己千杯少，话不投机半句多<br>
+你们那些视奸的某某某，你们愿意看就看，这个博客也是。我照样写我的，想发就发，不在乎，也不开新号，也不自己偷偷发啥私密的。<br>
+我就是恶心微博的人心复杂、乌烟瘴气、哪个也毛病多，所以才开了这个<strong>博客</strong>。但还是有很多人热衷那玩意儿。我承认我也曾经有过。但是我一直很讨厌自己的行为，每次热衷微博不能自拔的时候，就觉得一定要改。天天整些没有意义、虚头巴脑的玩意儿。好像一定要发点啥让别人关注到似的。内心的虚荣心在作怪。</p>
+<p>今后一定要改正自己的坏习惯，多做有意义的事情，多做有价值的事情，拒绝<strong>矫情</strong>。不必为了一些不值当的事情或者人而浪费自己的生命。别人也不配随随便便<strong>否定</strong>我自己。做什么只要自己问心无愧即可，但也难免会犯错，那么就 有则改之无则加勉。别人曾对我说“你就是<strong>脾气太好</strong>了，好说话，人家也就是<strong>欺负你脾气好</strong>”，我觉得也确实是这样。怎么说呢，可能就是觉得没有必要为了一些不值当的东西浪费口舌甚至争论什么吧。总觉得，就算吃点亏，但给别人行了方便，也没啥大不了的，双方都舒适。这个以后确实得改改了，老让人欺负可真不行，是吧。<br>
+这个世界是复杂的，人更是复杂的，没有什么东西、什么关系是看起来那么简单、那么好处理的。如果一直用小孩的思维和办法思考问题、解决问题还<strong>固执</strong>的话，说好听了叫傻的可爱，说难听了……我就不说了。这种人真的劝大家还是敬而远之吧。当然，不“敬”而远之也没啥。😂谁也别委屈了自己<br>
+道不同不相为谋，酒逢知己千杯少，话不投机半句多<br>
+写不下去了，恶心着了。就写到这吧，直接发了，前面写的也不想改了。<br>
+注：我的博客如果谁看了引起不适，那纯属雷同，纯属偶然，本人概不负责。我的博客，我的地盘，谁要是觉得看了不舒服那还是请您早点退出去，真没人请你进来看。俗话说，朋友来了有好酒，豺狼来了有猎枪。嗯。对。就酱。<br>
+最近老做噩梦，还睡得长、睡得深。晚安吧各位<sub>早睡</sub>白白👋</p>
 
             </div>
             <div class="post-footer">
@@ -666,7 +432,7 @@
     </li>
     <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://a01aaa.github.io/post/sui-bi-za-tan/" title="随笔杂谈（转自微博）">https://a01aaa.github.io/post/sui-bi-za-tan/</a>
+      <a href="https://a01aaa.github.io/post/guan-yu-wei-bo/" title="关于微博">https://a01aaa.github.io/post/guan-yu-wei-bo/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明： </strong>
@@ -681,15 +447,11 @@
   <div class="nav">
     <div class="nav-prev">
       
-        <i class="fa fa-chevron-left"></i>
-        <a class="nav-pc-next" title="Typora For Markdown 语法" href="https://a01aaa.github.io/post/typora-for-markdown-yu-fa/">Typora For Markdown 语法</a class="nav-pc-next">
-        <a class="nav-mobile-prev" title="Typora For Markdown 语法" href="https://a01aaa.github.io/post/typora-for-markdown-yu-fa/">上一篇</a>
-      
     </div>
     <div class="nav-next">
       
-        <a class="nav-pc-next" title="揭开博主大大神秘的面纱~" href="https://a01aaa.github.io/post/about/">揭开博主大大神秘的面纱~</a>
-        <a class="nav-mobile-next" title="揭开博主大大神秘的面纱~" href="https://a01aaa.github.io/post/about/">下一篇</a>
+        <a class="nav-pc-next" title="无题" href="https://a01aaa.github.io/post/wu-ti/">无题</a>
+        <a class="nav-mobile-next" title="无题" href="https://a01aaa.github.io/post/wu-ti/">下一篇</a>
         <i class="fa fa-chevron-right"></i>
       
     </div>
