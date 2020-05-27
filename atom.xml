@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://a01aaa.github.io</id>
     <title>饮冰室</title>
-    <updated>2020-05-27T11:43:51.271Z</updated>
+    <updated>2020-05-27T15:11:43.806Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://a01aaa.github.io"/>
     <link rel="self" href="https://a01aaa.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://a01aaa.github.io/images/avatar.png</logo>
     <icon>https://a01aaa.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 饮冰室</rights>
+    <entry>
+        <title type="html"><![CDATA[历史上的那些时空交错]]></title>
+        <id>https://a01aaa.github.io/post/li-shi-shang-de-na-xie-shi-kong-jiao-cuo/</id>
+        <link href="https://a01aaa.github.io/post/li-shi-shang-de-na-xie-shi-kong-jiao-cuo/">
+        </link>
+        <updated>2020-05-27T15:08:03.000Z</updated>
+        <summary type="html"><![CDATA[<p>哈哈哈，看完瞬间感觉自己的次元壁破了？？？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>哈哈哈，看完瞬间感觉自己的次元壁破了？？？</p>
+<!-- more -->
+<hr>
+<p>秦始皇只比刘邦大三岁；张学良听过周杰伦的歌，并且知道北京申奥成功；四人帮经历了非典而且也知道申奥成功；基辛格和<strong>戈尔巴乔夫</strong>都还活着，并且戈尔巴乔夫近期还为抗击新冠肺炎提出意见；乾隆和华盛顿同一年去世；等等等等。</p>
+<hr>
+<p>感觉自己好久没更新了，主要是最近考试比较多，还有各种乱七八糟的事，忙的焦头烂额了快。今天打开网站更新了一下版面，维护了一下系统，感觉现在这个站点是真的越来越有模有样了，真心希望自己能一直坚持维护下去。</p>
+<blockquote>
+<p>“心中那自由的世界，如此的清澈高远，盛开着永不凋零，蓝莲花~~~”</p>
+</blockquote>
+<p>最近自己有好多感悟和想法，本来都想记录到这上面来着，结果一方面是因为太忙，没心思；另一方面也是因为没抽出空来整理思路、形成完整的语言体系。等以后抽出空来再仔细归纳整理吧。</p>
+<p>就先酱吧，有好思路的时候就会更博的。最后，非常感谢大家能来到我的博客，进来的朋友们不用害羞不好意思的，欢迎大家在下面留言评论！我今天刚升级了后台，现在大家在昵称框里输入QQ号，就会自动更换成QQ头像和昵称并填入QQ邮箱，还增加了打赏功能，各位壕壕们不要吝啬呀，哈哈哈哈哈，大家赶快来试一试吧~很好玩的。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[致谢]]></title>
         <id>https://a01aaa.github.io/post/zhi-xie/</id>
@@ -264,16 +285,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9061099"><label class="task-list-item-label" for="task-item-9061099"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6391963"><label class="task-list-item-label" for="task-item-6391963"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1786198"><label class="task-list-item-label" for="task-item-1786198"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8995466"><label class="task-list-item-label" for="task-item-8995466"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9238215"><label class="task-list-item-label" for="task-item-9238215"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2512439"><label class="task-list-item-label" for="task-item-2512439"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1292029"><label class="task-list-item-label" for="task-item-1292029"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8261150"><label class="task-list-item-label" for="task-item-8261150"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
