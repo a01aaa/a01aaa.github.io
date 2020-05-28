@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-05-28T03:40:37.423Z</updated>
+    <updated>2020-05-28T03:42:39.201Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://lxl.cool"/>
     <link rel="self" href="http://lxl.cool/atom.xml"/>
@@ -16,9 +16,11 @@
         <link href="http://lxl.cool/li-shi-shang-de-na-xie-shi-kong-jiao-cuo/">
         </link>
         <updated>2020-05-27T15:08:03.000Z</updated>
-        <summary type="html"><![CDATA[<p>哈哈哈，看完瞬间感觉自己的次元壁破了？？？（注：本文自带BGM，进入后可将主页背景音乐暂停😀）</p>
+        <summary type="html"><![CDATA[<p>哈哈哈，看完瞬间感觉自己的次元壁破了？？？<br>
+（注：本文自带BGM，进入后可将主页背景音乐暂停😀）</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>哈哈哈，看完瞬间感觉自己的次元壁破了？？？（注：本文自带BGM，进入后可将主页背景音乐暂停😀）</p>
+        <content type="html"><![CDATA[<p>哈哈哈，看完瞬间感觉自己的次元壁破了？？？<br>
+（注：本文自带BGM，进入后可将主页背景音乐暂停😀）</p>
 <!-- more -->
 <hr>
 <p>秦始皇只比刘邦大三岁；张学良听过周杰伦的歌，并且知道北京申奥成功；四人帮经历了非典而且也知道申奥成功；基辛格和<strong>戈尔巴乔夫</strong>都还活着，并且戈尔巴乔夫近期还为抗击新冠肺炎提出意见；乾隆和华盛顿同一年去世；等等等等。</p>
@@ -286,16 +288,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5124397"><label class="task-list-item-label" for="task-item-5124397"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4074250"><label class="task-list-item-label" for="task-item-4074250"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6263821"><label class="task-list-item-label" for="task-item-6263821"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-837710"><label class="task-list-item-label" for="task-item-837710"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4065648"><label class="task-list-item-label" for="task-item-4065648"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-74840"><label class="task-list-item-label" for="task-item-74840"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4537095"><label class="task-list-item-label" for="task-item-4537095"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3316394"><label class="task-list-item-label" for="task-item-3316394"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
