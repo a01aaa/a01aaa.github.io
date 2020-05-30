@@ -2253,7 +2253,7 @@ pre > span.copy-code:hover {
     }body {
       cursor: url('/media/curs/default_normal.cur'), default;
     }a {
-      cursor: url('/media/curs/default_link.cur'), pointer !important;
+      cursor: pointer;
     }input, textarea, code {
       cursor: url('/media/curs/default_texto.cur'), text !important;
     }code > span.copy-code {
