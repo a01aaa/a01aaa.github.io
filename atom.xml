@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://lxl.cool</id>
+    <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-06-09T03:31:12.368Z</updated>
+    <updated>2020-06-09T03:36:52.987Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://lxl.cool"/>
-    <link rel="self" href="http://lxl.cool/atom.xml"/>
+    <link rel="alternate" href="https://lxl.cool"/>
+    <link rel="self" href="https://lxl.cool/atom.xml"/>
     <subtitle>万般皆苦  ☭  唯有自渡</subtitle>
-    <logo>http://lxl.cool/images/avatar.png</logo>
-    <icon>http://lxl.cool/favicon.ico</icon>
+    <logo>https://lxl.cool/images/avatar.png</logo>
+    <icon>https://lxl.cool/favicon.ico</icon>
     <rights>All rights reserved 2020, 饮冰室</rights>
     <entry>
         <title type="html"><![CDATA[致谢]]></title>
-        <id>http://lxl.cool/zhi-xie/</id>
-        <link href="http://lxl.cool/zhi-xie/">
+        <id>https://lxl.cool/zhi-xie/</id>
+        <link href="https://lxl.cool/zhi-xie/">
         </link>
         <updated>2020-05-13T04:12:16.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://lxl.cool/post-images/1589361879533.png" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p><img src="https://lxl.cool/post-images/1589361879533.png" alt="" loading="lazy"><br>
 哈哈哈，开个玩笑。😁<br>
 当毕业论文写完了，致谢也敲完最后一个字的时候，那一刻，突然觉得，现在，是真的要和大学说<strong>再见</strong>了。不管有没有什么遗憾，也不管你舍不舍得，<strong>Time To Say Goodbye</strong>.😓</p>
 <hr>
@@ -31,15 +31,15 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于微博]]></title>
-        <id>http://lxl.cool/guan-yu-wei-bo/</id>
-        <link href="http://lxl.cool/guan-yu-wei-bo/">
+        <id>https://lxl.cool/guan-yu-wei-bo/</id>
+        <link href="https://lxl.cool/guan-yu-wei-bo/">
         </link>
         <updated>2020-05-12T15:48:49.000Z</updated>
         <summary type="html"><![CDATA[<p>咱也不知道天天的都谁视奸我微博，好友才占了一成，也是绝了。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>咱也不知道天天的都谁视奸我微博，好友才占了一成，也是绝了。</p>
 <!-- more -->
-<p><img src="http://lxl.cool/post-images/1589303083614.jpg" alt="" loading="lazy"><br>
+<p><img src="https://lxl.cool/post-images/1589303083614.jpg" alt="" loading="lazy"><br>
 谁愿意看就看吧，就像今晚上的新闻联播所说，“他横由他横，明月照大江”。<br>
 “除山中贼易，除心中贼难”——王阳明<br>
 之前跟谁说过来着，还不信，说我总把别人往坏的方面想<br>
@@ -56,8 +56,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[无题]]></title>
-        <id>http://lxl.cool/wu-ti/</id>
-        <link href="http://lxl.cool/wu-ti/">
+        <id>https://lxl.cool/wu-ti/</id>
+        <link href="https://lxl.cool/wu-ti/">
         </link>
         <updated>2020-05-09T16:10:00.000Z</updated>
         <summary type="html"><![CDATA[<p>“你买的什么书？”<br>
@@ -74,8 +74,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[恭喜我们宿舍云毕业成功！🎉]]></title>
-        <id>http://lxl.cool/gong-xi-wo-men-su-she-yun-bi-ye-cheng-gong/</id>
-        <link href="http://lxl.cool/gong-xi-wo-men-su-she-yun-bi-ye-cheng-gong/">
+        <id>https://lxl.cool/gong-xi-wo-men-su-she-yun-bi-ye-cheng-gong/</id>
+        <link href="https://lxl.cool/gong-xi-wo-men-su-she-yun-bi-ye-cheng-gong/">
         </link>
         <updated>2020-05-09T14:43:37.000Z</updated>
         <content type="html"><![CDATA[<p>2020届毕业生可以说是最惨的一级了吧？🤦‍♂<br>
@@ -92,20 +92,20 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[分享一个AI论文去重小软件]]></title>
-        <id>http://lxl.cool/fen-xiang-yi-ge-ai-lun-wen-qu-chong-xiao-ruan-jian/</id>
-        <link href="http://lxl.cool/fen-xiang-yi-ge-ai-lun-wen-qu-chong-xiao-ruan-jian/">
+        <id>https://lxl.cool/fen-xiang-yi-ge-ai-lun-wen-qu-chong-xiao-ruan-jian/</id>
+        <link href="https://lxl.cool/fen-xiang-yi-ge-ai-lun-wen-qu-chong-xiao-ruan-jian/">
         </link>
         <updated>2020-05-09T10:42:11.000Z</updated>
         <content type="html"><![CDATA[<p>​		最近发现了一个<strong>AI论文去重</strong>小软件（电脑版的）😀，分享给大家，作者上个月刚开发的，大家自己去他博客里下载吧，最近更新还挺勤快的，我在这就不放文件下载链接了。地址是<a href="https://ptype.info/2020/04/17/ai/"><strong>花生AI论文去重</strong></a>     https://ptype.info/2020/04/17/ai/<br>
-<img src="http://lxl.cool/post-images/1589021238578.png" alt="" loading="lazy"><br>
+<img src="https://lxl.cool/post-images/1589021238578.png" alt="" loading="lazy"><br>
 ​		🙋最近需要写论文的同学可以试一下，我论文还没开始写所以就没法试试效果怎么样了。大家用过以后可以在这篇文章底下留言使用效果。</p>
 <p>​		当然，如果大家还有什么好的降重或者查重工具，私发或者评论给我😘，谢谢哈哈哈哈哈🤓</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[《波兰来客》——北岛]]></title>
-        <id>http://lxl.cool/lesslessbo-lan-lai-ke-greatergreater-bei-dao/</id>
-        <link href="http://lxl.cool/lesslessbo-lan-lai-ke-greatergreater-bei-dao/">
+        <id>https://lxl.cool/lesslessbo-lan-lai-ke-greatergreater-bei-dao/</id>
+        <link href="https://lxl.cool/lesslessbo-lan-lai-ke-greatergreater-bei-dao/">
         </link>
         <updated>2020-05-05T15:33:21.000Z</updated>
         <content type="html"><![CDATA[<p><strong>波兰来客</strong></p>
@@ -118,8 +118,8 @@
 <p>杯子碰到一起，</p>
 <p>都是梦破碎的声音。</p>
 <hr>
-<p><img src="http://lxl.cool/post-images/1588693626224.jpg" alt="" loading="lazy"><br>
-<img src="http://lxl.cool/post-images/1588693633036.jpg" alt="" loading="lazy"></p>
+<p><img src="https://lxl.cool/post-images/1588693626224.jpg" alt="" loading="lazy"><br>
+<img src="https://lxl.cool/post-images/1588693633036.jpg" alt="" loading="lazy"></p>
 <hr>
 <p><img src="https://icon.qiantucdn.com/20200528/c9091d40390cf4266d3049fcc617e9f62" alt="" loading="lazy"><br>
 农大南校窗户外傍晚景象，经常在此望着窗外流连忘返</p>
@@ -133,8 +133,8 @@ Love You Three Thousand Times~<br>
     </entry>
     <entry>
         <title type="html"><![CDATA[Typora For Markdown 语法]]></title>
-        <id>http://lxl.cool/typora-for-markdown-yu-fa/</id>
-        <link href="http://lxl.cool/typora-for-markdown-yu-fa/">
+        <id>https://lxl.cool/typora-for-markdown-yu-fa/</id>
+        <link href="https://lxl.cool/typora-for-markdown-yu-fa/">
         </link>
         <updated>2020-05-05T02:57:12.000Z</updated>
         <content type="html"><![CDATA[<p>#Typora For Markdown 语法</p>
@@ -264,16 +264,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3061329"><label class="task-list-item-label" for="task-item-3061329"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5979960"><label class="task-list-item-label" for="task-item-5979960"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7110557"><label class="task-list-item-label" for="task-item-7110557"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7750446"><label class="task-list-item-label" for="task-item-7750446"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8700907"><label class="task-list-item-label" for="task-item-8700907"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6819430"><label class="task-list-item-label" for="task-item-6819430"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2762571"><label class="task-list-item-label" for="task-item-2762571"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1107444"><label class="task-list-item-label" for="task-item-1107444"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
@@ -321,8 +321,8 @@ Typroa 推荐使用两个*号。</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[随笔杂谈（转自微博）]]></title>
-        <id>http://lxl.cool/sui-bi-za-tan/</id>
-        <link href="http://lxl.cool/sui-bi-za-tan/">
+        <id>https://lxl.cool/sui-bi-za-tan/</id>
+        <link href="https://lxl.cool/sui-bi-za-tan/">
         </link>
         <updated>2020-05-04T19:00:07.000Z</updated>
         <content type="html"><![CDATA[<h1 id="一-关于兴趣">一、关于兴趣</h1>
@@ -339,7 +339,7 @@ Typroa 推荐使用两个*号。</p>
 <p>​     有人会问，你怎么不用微博呢？</p>
 <p>​     首先，“微博”即“微型博客”的简称，它在做到方便的同时也牺牲了博客本身的美。它作为大众增强互动的工具还是不错的，但是在形式上也只能算是“微”博。一、我不喜欢强行把文字和图片割裂开，先写完一堆话，下面再加上几个图；二、就普通发微博而言，格式的选择太过于单调，没有字体格式（颜色、字体、<strong>加粗</strong>、<em>倾斜</em>、等等），也没有段落格式（大小标题、首行缩进、居中、背景、等等）（现在编辑的头条文章都没有🙃 ），有人会说，这样是方便了书写，随心所欲，不繁琐，我就发个动态还管它那么多。确实如此，可是，每个人写出来的都是这样的格式，乱七八糟堆上几个字，再最后附上个六九图；要不就是加上几个＃话题，再塞上几行字，下面弄上个视频，感觉还不如小学生在Word上写的观后感作文。图片和视频不能共存你告诉我是为什么？非要发两次才行？如今的互联网产品同质化太过于严重，而且操作简单弱智化，功能阉割化娱乐化，感觉都是同质于在发微信朋友圈，只不过是换了个圈子，换了个软件，修改了几项功能。不过也正常，在这个娱乐至死的时代，只要让用户觉得开心，简单，快乐，沉溺就好了呗，别的提升先不管，先把娱乐类的直播、聊天、热度，互动给搞上去。就类似于国产车，实打实的硬件功能不给改进，车里的娱乐、影音啥的全弄上。</p>
 <p>​     其次，我感觉我现在越来越不想用微博了，不是掉进了粪坑就是掉进了🐔 窝……微博太浮躁了，功利心太强，戾气太重，文化垃圾太多。全都浮在热度上，沉不下去。就像初中高中的班主任常说的那样，“光景永远是看不够的”。而且我也不想追这个⭐ 那个⭐ 的。虚假的东西太多太多。我最恶心的就是不知廉耻的各种虚假人设。雪崩的时候没有一片雪花是无辜的。这方面我还是比较欣赏于大爷。好了好了，不谈圈，没有意义。<br>
-<img src="http://lxl.cool/post-images/1589360509089.jpeg" alt="" loading="lazy"><br>
+<img src="https://lxl.cool/post-images/1589360509089.jpeg" alt="" loading="lazy"><br>
 | 麻麻～王源抽烟🚬 好帅啊！我也要学！ |</p>
 <blockquote>
 <p>“工学者，巧心，劳力，造器物”</p>
@@ -350,12 +350,12 @@ Typroa 推荐使用两个*号。</p>
 <p>​</p>
 <p>​    每次看到网上那些大神们的精美的博客，简直不能再羡慕。但是对于我这种学农的小白来说，真的可以说是心有余而力不足。理想很丰满，现实很骨感。一方面，对各种计算机语言和代码一窍不通，如看天书；另一方面，搭建一个个人博客，不仅前期得租域名，买服务器，买图床……买了域名还得去备案……而且还需要用Worldpress等平台开发博客。想想我头就大了。而且，一入侯门深似海，就跟会员一样，一旦打算开始每年租着域名了，就不可能停租了，不然域名一没，网站也就打不开了，长时间打理的心血也付之东流。我还是在纠结到底要不要整起来，又怕自己是心血来潮，当代恶臭年轻人，做啥也坚持不了多久。</p>
 <p>​     之前也写过几篇博客，用的是Google的Blogger平台，基本功能比较完备，但还是略显简陋，而且最重要的一点是撰写和浏览都得翻墙，太不方便，而且评论功能做的也不太好。地址是https://a01aaa.blogspot.com/ <a href="https://a01aaa.blogspot.com/">戳这里可直达我的Google Blogger❤️ </a> 如果有谁感兴趣的话可以上去看看😂 没怎么太完善，而且用的是Google Blogger自带的网址，没有租自己的域名，也算是弃用了。注意需要科学上网。</p>
-<figure data-type="image" tabindex="1"><img src="http://lxl.cool/post-images/1589360593962.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://lxl.cool/post-images/1589360593962.png" alt="" loading="lazy"></figure>
 <p>最近看了一些教程，找到了一些替代办法，比如可以用Gridea和GitHub Pages或者GitHub+Hexo搭建个人博客，但也还是很麻烦😷 唉……算了，Blog这个问题先搁置吧，等以后有空了再说吧，先慢慢了解学着基础知识，如果哪天我的博客真建成了，一定通知大家😂 。不过也千万别抱太大希望，说不定第二天我就忘了😂 又回到了“游戏它不香吗，抖音它不香吗”的咸鱼状态了😂 。</p>
 <p>​     我感觉我就是那种，一有点什么想法就想写下来。相对于拍视频，拍Vlog，我觉得文字这东西更让人着迷，写完一篇文章也有助于自己思路的整理和各方面的提升，真的是可以将其作为一种享受的过程。但是如果是写自己不愿意写的东西，比如论文，＊＊汇报，总结等等的，那就另当别论了。</p>
 <hr>
 <p>​     最后，给大家分享个有趣的东西，最近在研究域名的时候，发现现在各种中文域名也可以了哎😂</p>
-<p><img src="http://lxl.cool/post-images/1589360609878.png" alt="" loading="lazy"><br>
+<p><img src="https://lxl.cool/post-images/1589360609878.png" alt="" loading="lazy"><br>
 ​    比如  .我爱你 这个域名就很有意思，很多用这个域名建的情侣空间，这几天找到的很多私人的都失效了，不知道是因为分手了还是咋了😂 只找到以下几个：</p>
 <p>张国荣.我爱你</p>
 <p>爹娘.我爱你</p>
@@ -376,8 +376,8 @@ Typroa 推荐使用两个*号。</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[揭开博主大大神秘的面纱~]]></title>
-        <id>http://lxl.cool/about/</id>
-        <link href="http://lxl.cool/about/">
+        <id>https://lxl.cool/about/</id>
+        <link href="https://lxl.cool/about/">
         </link>
         <updated>2020-05-03T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>欢迎来到我的博客小站呀，很高兴遇见你！🤝</p>
