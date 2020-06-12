@@ -2173,9 +2173,8 @@ pre > span.copy-code:hover {
     .next-md-body a:hover, .friends-box a:hover {
       color: #fa5252;
       border-bottom-color: #fa5252;
-    }
-    .nav-toggle .line {
-      background-color:  !important;
+    }.nav-toggle .line {
+      background-color: #f8f9fa !important;
     }
       .nav-item a {
         color:  #555;
