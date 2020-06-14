@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-06-14T14:20:53.087Z</updated>
+    <updated>2020-06-14T14:25:34.812Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -264,16 +264,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4180953"><label class="task-list-item-label" for="task-item-4180953"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7411598"><label class="task-list-item-label" for="task-item-7411598"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5317715"><label class="task-list-item-label" for="task-item-5317715"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6785992"><label class="task-list-item-label" for="task-item-6785992"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7128472"><label class="task-list-item-label" for="task-item-7128472"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4415908"><label class="task-list-item-label" for="task-item-4415908"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1969535"><label class="task-list-item-label" for="task-item-1969535"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8982291"><label class="task-list-item-label" for="task-item-8982291"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
@@ -380,7 +380,9 @@ Typroa 推荐使用两个*号。</p>
         <link href="https://lxl.cool/about/">
         </link>
         <updated>2020-05-03T16:00:01.000Z</updated>
-        <content type="html"><![CDATA[<p>欢迎来到我的博客小站呀，很高兴遇见你！🤝</p>
+        <content type="html"><![CDATA[<img src="http://image.lxl.cool/img/博客.png" style="zoom: 50%;" />
+<hr>
+<p>欢迎来到我的博客小站呀，很高兴遇见你！🤝</p>
 <h2 id="关于本站">🏠 关于本站</h2>
 <p>·本站是  Mr.李  打造的小小站点，目的是为了记录美好生活~</p>
 <p>·纯小白一个，做的不好还请多多指教，如果有大佬能互相交流的话就更好啦~🤓</p>
