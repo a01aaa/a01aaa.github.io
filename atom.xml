@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-06-19T18:47:51.760Z</updated>
+    <updated>2020-06-19T19:03:34.013Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -30,7 +30,9 @@
 <hr>
 <p>再说说我的博客吧，近期我优化了博客的好多细节，不知道大家发现了没，包括标题、页脚、评论还有特效等等，对了，我还搭建了个资源分享盘，在我的标题栏里可以直接进入，网址是<a href="http://520521520.xyz">520521520.xyz</a>，是用OneDrive搭建的，容量5T，最重要的是下载不限速，直接干掉百度云！以后除了在博客上记录生活，分享心得体会之外，也会把自己觉得好用的软件或者其他文件分享给大家，敬请期待。而且我还搭建了自己的图床，在线查看并且分享照片非常方便，尤其是类似于毕业照之类的大照片，尤其方便。最近还用腾讯云的CDN加速了博客，提升了博客的打开访问速度，不知道大家有没有感觉出来打开速度比之前快了不少。</p>
 <hr>
-<p>除此上面说的之外，我还发现了很好玩的方式，就是不仅可以在博客里插入音乐🎵、视频，还可以在博客里直接插入文档，包括Word、Excl、PPT等等，简直不要太好用！（<strong>注：①在电脑上查看效果更佳；②在设备上首次查看需要登录微软Office账号，登录后查看的效果简直不要太舒服。</strong>）</p>
+<p>除此上面说的之外，我还发现了很好玩的方式，就是不仅可以在博客里插入音乐🎵、视频，还可以在博客里直接插入文档，包括Word、Excl、PPT等等，简直不要太好用！（<strong>注：①在电脑上查看效果更佳；②在设备上首次查看需要登录微软Office账号，登录后查看的效果简直不要太舒服。</strong>）<br>
+效果图：<img src="http://image.lxl.cool/img/Snipaste_2020-06-20_03-00-22.png" style="zoom: 90%;" /></p>
+<hr>
 <p><strong>Word文档测试：</strong></p>
 <iframe src="https://holtlwe-my.sharepoint.com/personal/aaa_office365_best/_layouts/15/Doc.aspx?sourcedoc={10267baa-4a5e-4fb8-8a5a-1f80c9417396}&amp;action=embedview&amp;wdStartOn=1" width="600px" height="400px" frameborder="0">这是嵌入 <a target="_blank" href="https://office.com">Microsoft Office</a> 文档，由 <a target="_blank" href="https://office.com/webapps">Office</a> 提供支持。</iframe>
 <hr>
@@ -332,16 +334,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5301888"><label class="task-list-item-label" for="task-item-5301888"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3825521"><label class="task-list-item-label" for="task-item-3825521"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9990576"><label class="task-list-item-label" for="task-item-9990576"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4426741"><label class="task-list-item-label" for="task-item-4426741"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1509838"><label class="task-list-item-label" for="task-item-1509838"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-334576"><label class="task-list-item-label" for="task-item-334576"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1828750"><label class="task-list-item-label" for="task-item-1828750"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5130766"><label class="task-list-item-label" for="task-item-5130766"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
