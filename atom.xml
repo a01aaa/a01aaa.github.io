@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-06-20T04:49:05.446Z</updated>
+    <updated>2020-06-20T05:25:19.194Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -21,10 +21,10 @@
         <content type="html"><![CDATA[<p>（ 注：本文自带BGM，进入后可将主背景音乐关停。）</p>
 <!-- more -->
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=411988502&auto=1&height=66"></iframe>
-<p>经过了长达20多天的备案，终于完成了ICP备案和公安备案，咱这网站现在也是受法律保护的正规网站了😬太不容易了简直😭。</p>
+<p>经过了长达20多天的备案，终于完成了ICP备案和公安联网备案，咱这网站现在也是受法律保护的正规网站了😬太不容易了简直😭。</p>
 <p>2020.06.09 ICP备案成功：<br>
 <img src="http://image.lxl.cool/img/Screenshot_20200620_004258.png" style="zoom:33%;" /><br>
-2020.06.19 公安备案成功：<br>
+2020.06.19 公安联网备案成功：<br>
 <img src="http://image.lxl.cool/img/Screenshot_20200620_004112_com.android.mms.png" style="zoom:33%;" /></p>
 <p>我的博客小站终于初见成效了，开始步入正轨，可以拿出来跟大家见面了🤓。</p>
 <hr>
@@ -33,7 +33,7 @@
 <p>毕业了，今天从泰安回到了家，感触万千，情绪有点失控，太多遗憾……</p>
 <iframe src="//player.bilibili.com/player.html?aid=370784973&bvid=BV19Z4y1p7oF&cid=194955416&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 <hr>
-<p>再说说我的博客吧，近期我优化了博客的好多细节，不知道大家发现了没，包括标题、页脚、评论还有特效等等，对了，我还搭建了个资源分享盘，在我的标题栏里可以直接进入，网址是<a href="http://520521520.xyz">520521520.xyz</a>，是用OneDrive搭建的，容量5T，最重要的是下载不限速，直接干掉百度云！以后除了在博客上记录生活，分享心得体会之外，也会把自己觉得好用的软件或者其他文件分享给大家，敬请期待。而且我还搭建了自己的图床，在线查看并且分享照片非常方便，尤其是类似于毕业照之类的大照片，尤其方便。最近还用腾讯云的CDN加速了博客，提升了博客的打开访问速度，不知道大家有没有感觉出来打开速度比之前快了不少。</p>
+<p>再说说我的博客吧，近期我优化了博客的好多细节，不知道大家发现了没，包括标题、页脚、评论还有特效等等，对了，我还搭建了个资源分享盘，在我的标题栏里可以直接进入，网址是<a href="http://520521520.xyz">520521520.xyz</a>，是用OneDrive搭建的，容量5T，最重要的是下载不限速，直接干掉百度云！以后除了在博客上记录生活，分享心得体会之外，也会把自己觉得好用的软件或者其他文件分享给大家，敬请期待。而且我还搭建了自己的图床，在线查看并且分享照片非常方便，尤其是类似于毕业照之类的大照片，尤其方便。最近还用腾讯云的CDN加速了博客，提升了博客的打开访问速度，不知道大家有没有感觉出来打开速度比之前快了不少。具体的关于我的博客搭建历史，可以参考我的另一篇文章：<a href="http://520521520.xyz">520521520.xyz</a></p>
 <hr>
 <p>除此上面说的之外，我还发现了很好玩的方式，就是不仅可以在博客里插入音乐🎵、视频，还可以在博客里直接插入文档，包括Word、Excl、PPT等等，简直不要太好用！（<strong>注：①在电脑上查看效果更佳；②在设备上首次查看需要登录微软Office账号，登录后查看的效果简直不要太舒服。</strong>）<br>
 效果图：<img src="http://image.lxl.cool/img/Snipaste_2020-06-20_03-00-22.png" style="zoom: 90%;" /></p>
@@ -339,16 +339,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8773323"><label class="task-list-item-label" for="task-item-8773323"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6014806"><label class="task-list-item-label" for="task-item-6014806"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6149883"><label class="task-list-item-label" for="task-item-6149883"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2789512"><label class="task-list-item-label" for="task-item-2789512"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6281524"><label class="task-list-item-label" for="task-item-6281524"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9657190"><label class="task-list-item-label" for="task-item-9657190"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4426814"><label class="task-list-item-label" for="task-item-4426814"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-601926"><label class="task-list-item-label" for="task-item-601926"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
