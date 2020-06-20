@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-06-19T19:04:00.078Z</updated>
+    <updated>2020-06-20T04:16:55.378Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -16,7 +16,11 @@
         <link href="https://lxl.cool/bo-ke-zhong-yu-lai-gen-da-jia-jian-mian-liao/">
         </link>
         <updated>2020-06-19T14:55:55.000Z</updated>
-        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=523680573&auto=1&height=66"></iframe>
+        <summary type="html"><![CDATA[<p>注：本文自带BGM，进入后可将主背景音乐关停。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>注：本文自带BGM，进入后可将主背景音乐关停。</p>
+<!-- more -->
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=411988502&auto=1&height=66"></iframe>
 <p>经过了长达20多天的备案，终于完成了ICP备案和公安备案，咱这网站现在也是受法律保护的正规网站了😬太不容易了简直😭。</p>
 <p>2020.06.09 ICP备案成功：<br>
 <img src="http://image.lxl.cool/img/Screenshot_20200620_004258.png" style="zoom:33%;" /><br>
@@ -24,7 +28,8 @@
 <img src="http://image.lxl.cool/img/Screenshot_20200620_004112_com.android.mms.png" style="zoom:33%;" /></p>
 <p>我的博客小站终于初见成效了，开始步入正轨，可以拿出来跟大家见面了🤓。</p>
 <hr>
-<p>这一段时间发生的事情太多了，没法在此一一叙述，等来日方长再说吧，感触太多，我怕我三天三夜都写不完，眼泪三天三夜都流不完。</p>
+<p>这一段时间发生的事情太多了，没法在此一一叙述，等来日方长再说吧，感触太多，我怕我三天三夜都写不完，眼泪三天三夜都流不完。<br>
+就像李宗盛的那首《山丘》，“想说却还没说的   还很多，攒着是因为想写成歌，让人轻轻地唱着  淡淡地记着……”</p>
 <p>毕业了，今天从泰安回到了家，感触万千，情绪有点失控，太多遗憾……</p>
 <iframe src="//player.bilibili.com/player.html?aid=370784973&bvid=BV19Z4y1p7oF&cid=194955416&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 <hr>
@@ -334,16 +339,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7790104"><label class="task-list-item-label" for="task-item-7790104"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1316902"><label class="task-list-item-label" for="task-item-1316902"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6933908"><label class="task-list-item-label" for="task-item-6933908"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5403322"><label class="task-list-item-label" for="task-item-5403322"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7199277"><label class="task-list-item-label" for="task-item-7199277"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2752779"><label class="task-list-item-label" for="task-item-2752779"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8367124"><label class="task-list-item-label" for="task-item-8367124"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3339513"><label class="task-list-item-label" for="task-item-3339513"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
