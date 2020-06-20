@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-06-20T05:26:02.871Z</updated>
+    <updated>2020-06-20T05:26:58.966Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -33,7 +33,7 @@
 <p>毕业了，今天从泰安回到了家，感触万千，情绪有点失控，太多遗憾……</p>
 <iframe src="//player.bilibili.com/player.html?aid=370784973&bvid=BV19Z4y1p7oF&cid=194955416&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 <hr>
-<p>再说说我的博客吧，近期我优化了博客的好多细节，不知道大家发现了没，包括标题、页脚、评论还有特效等等，对了，我还搭建了个资源分享盘，在我的标题栏里可以直接进入，网址是<a href="http://520521520.xyz">520521520.xyz</a>，是用OneDrive搭建的，容量5T，最重要的是下载不限速，直接干掉百度云！以后除了在博客上记录生活，分享心得体会之外，也会把自己觉得好用的软件或者其他文件分享给大家，敬请期待。而且我还搭建了自己的图床，在线查看并且分享照片非常方便，尤其是类似于毕业照之类的大照片，尤其方便。最近还用腾讯云的CDN加速了博客，提升了博客的打开访问速度，不知道大家有没有感觉出来打开速度比之前快了不少。具体的关于我的博客搭建历史，可以参考我的另一篇文章：<a href="http://520521520.xyz">📈博客更新日志</a></p>
+<p>再说说我的博客吧，近期我优化了博客的好多细节，不知道大家发现了没，包括标题、页脚、评论还有特效等等，对了，我还搭建了个资源分享盘，在我的标题栏里可以直接进入，网址是<a href="http://520521520.xyz">520521520.xyz</a>，是用OneDrive搭建的，容量5T，最重要的是下载不限速，直接干掉百度云！以后除了在博客上记录生活，分享心得体会之外，也会把自己觉得好用的软件或者其他文件分享给大家，敬请期待。而且我还搭建了自己的图床，在线查看并且分享照片非常方便，尤其是类似于毕业照之类的大照片，尤其方便。最近还用腾讯云的CDN加速了博客，提升了博客的打开访问速度，不知道大家有没有感觉出来打开速度比之前快了不少。具体的关于我的博客搭建历史，可以参考我的另一篇文章：<a href="https://lxl.cool/bo-ke-da-jian-li-shi/">📈博客更新日志</a></p>
 <hr>
 <p>除此上面说的之外，我还发现了很好玩的方式，就是不仅可以在博客里插入音乐🎵、视频，还可以在博客里直接插入文档，包括Word、Excl、PPT等等，简直不要太好用！（<strong>注：①在电脑上查看效果更佳；②在设备上首次查看需要登录微软Office账号，登录后查看的效果简直不要太舒服。</strong>）<br>
 效果图：<img src="http://image.lxl.cool/img/Snipaste_2020-06-20_03-00-22.png" style="zoom: 90%;" /></p>
@@ -339,16 +339,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5694023"><label class="task-list-item-label" for="task-item-5694023"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4793563"><label class="task-list-item-label" for="task-item-4793563"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-337012"><label class="task-list-item-label" for="task-item-337012"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9832845"><label class="task-list-item-label" for="task-item-9832845"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2742038"><label class="task-list-item-label" for="task-item-2742038"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2321911"><label class="task-list-item-label" for="task-item-2321911"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9191073"><label class="task-list-item-label" for="task-item-9191073"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5835607"><label class="task-list-item-label" for="task-item-5835607"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
