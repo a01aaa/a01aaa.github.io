@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-06-20T06:55:34.200Z</updated>
+    <updated>2020-06-20T06:58:48.882Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -31,7 +31,11 @@
 <p>这一段时间发生的事情太多了，没法在此一一叙述，等来日方长再说吧，感触太多，我怕我三天三夜都写不完，眼泪三天三夜都流不完。<br>
 就像李宗盛的那首《山丘》：</p>
 <blockquote>
-<p>“想说却还没说的，还很多，攒着是因为想写成歌，让人轻轻地唱着，淡淡地记着……”</p>
+<p>“想说却还没说的，<br>
+还很多，<br>
+攒着是因为想写成歌，<br>
+让人轻轻地唱着，<br>
+淡淡地记着……”</p>
 </blockquote>
 <p>毕业了，今天从泰安回到了家，感触万千，情绪有点失控，太多遗憾……</p>
 <iframe src="//player.bilibili.com/player.html?aid=370784973&bvid=BV19Z4y1p7oF&cid=194955416&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
@@ -342,16 +346,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7860127"><label class="task-list-item-label" for="task-item-7860127"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-997892"><label class="task-list-item-label" for="task-item-997892"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5823951"><label class="task-list-item-label" for="task-item-5823951"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1762311"><label class="task-list-item-label" for="task-item-1762311"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9346289"><label class="task-list-item-label" for="task-item-9346289"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7718099"><label class="task-list-item-label" for="task-item-7718099"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8476323"><label class="task-list-item-label" for="task-item-8476323"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4519700"><label class="task-list-item-label" for="task-item-4519700"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
