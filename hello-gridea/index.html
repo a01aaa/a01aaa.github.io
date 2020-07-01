@@ -9,7 +9,7 @@
 <meta name="description" content="万般皆苦  ☭  唯有自渡">
 <meta name="theme-color" content="#66d9e8">
 <title>Hello Gridea | 饮冰室</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1593536951730">
+<link rel="shortcut icon" href="/favicon.ico?v=1593614924873">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -614,7 +614,7 @@
 </script>
         <div class="section-box box-shadow-wrapper">
           <div class="section bg-color post post-page">
-            <header class="post-header">
+            <section class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://lxl.cool/hello-gridea/">
       Hello Gridea
@@ -625,7 +625,7 @@
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span class="language" data-lan="publish">发布于</span>
-      <span>2018-12-12</span>
+      <span class="publish-time" data-t="2018-12-12 00:00:00">2018-12-12</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
@@ -661,7 +661,7 @@
     </span>
     
   </div>
-</header>
+</section>
             <div class="post-body next-md-body" id="post_body">
               <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
@@ -1814,7 +1814,7 @@ setInterval("createtime()",250);
   </div>
 </body>
 
-  <div class="search-mask" id="search_mask" style="display: none;">
+<div class="search-mask" id="search_mask" style="display: none;">
   <div class="search-box">
     <div class="search-title">
       <i class="fa fa-search"></i>
@@ -2122,16 +2122,16 @@ Typroa 推荐使用两个*号。&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul class=&#34;contains-task-list&#34;&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-9328447&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-9328447&#34;&gt; 吃饭&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-799707&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-799707&#34;&gt; 吃饭&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-3840003&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-3840003&#34;&gt; 逛街&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-4726015&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-4726015&#34;&gt; 逛街&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-5770119&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-5770119&#34;&gt; 看电影&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-5283551&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-5283551&#34;&gt; 看电影&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-7445781&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-7445781&#34;&gt; 约泡&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-9856437&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-9856437&#34;&gt; 约泡&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;列表&#34;&gt;列表&lt;/h3&gt;
@@ -2434,6 +2434,28 @@ Typroa 推荐使用两个*号。&lt;/p&gt;
 </script>
 
 <input hidden id="copy" />
+<script>
+  !function () {
+    let times = document.querySelectorAll('.publish-time');
+    for (let i = 0; i < times.length; i++) {
+      let date = times[i].dataset.t;
+      let time = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000);
+      if (time < 60) {
+        str = time + '秒之前';
+      } else if (time < 3600) {
+        str = Math.floor(time / 60) + '分钟之前';
+      } else if (time >= 3600 && time < 86400) {
+        str = Math.floor(time / 3600) + '小时之前';
+      } else if (time >= 86400 && time < 259200) {
+        str = Math.floor(time / 86400) + '天之前';
+      } else {
+        str = times[i].textContent;
+      }
+      times[i].textContent = str;
+    }
+  }();
+</script>
+
 <script>
   let language = '';
   if (language !== '') {
