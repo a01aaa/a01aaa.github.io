@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-07-01T14:56:32.546Z</updated>
+    <updated>2020-07-02T15:17:04.517Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -46,13 +46,13 @@
 效果图：<img src="http://image.lxl.cool/img/Snipaste_2020-06-20_03-00-22.png" style="zoom: 90%;" /></p>
 <hr>
 <p><strong>Word文档测试：</strong></p>
-<iframe src="https://holtlwe-my.sharepoint.com/personal/aaa_office365_best/_layouts/15/Doc.aspx?sourcedoc={10267baa-4a5e-4fb8-8a5a-1f80c9417396}&amp;action=embedview&amp;wdStartOn=1" width="600px" height="400px" frameborder="0">这是嵌入 <a target="_blank" href="https://office.com">Microsoft Office</a> 文档，由 <a target="_blank" href="https://office.com/webapps">Office</a> 提供支持。</iframe>
+<iframe src="https://holtlwe-my.sharepoint.com/personal/aaa_office365_best/_layouts/15/Doc.aspx?sourcedoc={10267baa-4a5e-4fb8-8a5a-1f80c9417396}&amp;action=embedview&amp;wdStartOn=1" width="500px" height="400px" frameborder="0">这是嵌入 <a target="_blank" href="https://office.com">Microsoft Office</a> 文档，由 <a target="_blank" href="https://office.com/webapps">Office</a> 提供支持。</iframe>
 <hr>
 <p><strong>Excl文档测试：</strong></p>
-<iframe width="600" height="400" frameborder="0" scrolling="no" src="https://holtlwe-my.sharepoint.com/personal/aaa_office365_best/_layouts/15/Doc.aspx?sourcedoc={9fe132e4-ec0a-45ed-8fa0-30f74d48dfc3}&action=embedview&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+<iframe width="500" height="400" frameborder="0" scrolling="no" src="https://holtlwe-my.sharepoint.com/personal/aaa_office365_best/_layouts/15/Doc.aspx?sourcedoc={9fe132e4-ec0a-45ed-8fa0-30f74d48dfc3}&action=embedview&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 <hr>
 <p><strong>PPT文档测试：</strong></p>
-<iframe src="https://holtlwe-my.sharepoint.com/personal/aaa_office365_best/_layouts/15/Doc.aspx?sourcedoc={cf3e3953-2920-4380-a577-d4aa7da36315}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="610px" height="367px" frameborder="0">这是嵌入 <a target="_blank" href="https://office.com">Microsoft Office</a> 演示文稿，由 <a target="_blank" href="https://office.com/webapps">Office</a> 提供支持。</iframe>
+<iframe src="https://holtlwe-my.sharepoint.com/personal/aaa_office365_best/_layouts/15/Doc.aspx?sourcedoc={cf3e3953-2920-4380-a577-d4aa7da36315}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="500px" height="350px" frameborder="0">这是嵌入 <a target="_blank" href="https://office.com">Microsoft Office</a> 演示文稿，由 <a target="_blank" href="https://office.com/webapps">Office</a> 提供支持。</iframe>
 <p>怎么样，还行吧哈哈哈哈哈哈哈😎<br>
 欢迎大家留言评论，昵称处填写QQ号，会自动同步QQ昵称、邮箱还有头像哦！填写邮箱📬可收到邮件📩评论回复提醒！</p>
 ]]></content>
@@ -346,16 +346,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9584338"><label class="task-list-item-label" for="task-item-9584338"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7624294"><label class="task-list-item-label" for="task-item-7624294"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7369497"><label class="task-list-item-label" for="task-item-7369497"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1482109"><label class="task-list-item-label" for="task-item-1482109"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6329547"><label class="task-list-item-label" for="task-item-6329547"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8606235"><label class="task-list-item-label" for="task-item-8606235"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7993525"><label class="task-list-item-label" for="task-item-7993525"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-551664"><label class="task-list-item-label" for="task-item-551664"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
