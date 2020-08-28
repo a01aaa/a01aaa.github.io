@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-08-28T07:12:25.745Z</updated>
+    <updated>2020-08-28T07:26:01.561Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -16,8 +16,12 @@
         <link href="https://lxl.cool/zheng-gu-zhuan-yong-ai-huan-lian/">
         </link>
         <updated>2020-08-28T05:47:05.000Z</updated>
-        <content type="html"><![CDATA[<p>       好久没更新了，总是不知道分享点什么好😅。<br>
-       今天来给大家分享个软件吧，最近B站上<strong>ＡＩ换脸</strong>的搞笑视频非常火，（也可以说是换嘴，就是拿一张照片，就可以制作成一个唱歌的视频，而且嘴型符合），大家可以看看下面这个视频体验一下：</p>
+        <summary type="html"><![CDATA[<p>（先跟小学生们说一句，手机不能玩，手机不能玩，手机不能玩😒）</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>（先跟小学生们说一句，手机不能玩，手机不能玩，手机不能玩😒）</p>
+<!-- more -->
+<p>       好久没更新了，总是不知道分享点什么好😅。<br>
+       今天来给大家分享个软件吧，最近B站上<strong>ＡＩ换脸</strong>的搞笑视频非常火，（也可以说是换嘴，就是拿一张照片，就可以制作成一个唱歌的视频，而且嘴型符合），大家可以看看<a href="https://www.bilibili.com/video/BV1AK4y1e7Mm/">下面这个视频</a>体验一下：</p>
 <iframe src="//player.bilibili.com/player.html?aid=884348553&bvid=BV1AK4y1e7Mm&cid=226220681&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 <p>       感觉怎么样，是不是很有意思，我这几天也做了好几个舍友的视频，做出来真的是太搞笑了哈哈哈哈哈哈哈哈哈哈哈哈！只要一张照片，谁的就可以做出来，取材特别方便。本来打算做几张老师的，但是做出来也不敢发，想想还是算了，别惹火上身了哈哈哈哈哈。<br>
        我这几天研究了一下子，现在把方法教给大家，大家也可以自己做了。<br>
@@ -344,16 +348,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3991878"><label class="task-list-item-label" for="task-item-3991878"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4615771"><label class="task-list-item-label" for="task-item-4615771"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5601829"><label class="task-list-item-label" for="task-item-5601829"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7007854"><label class="task-list-item-label" for="task-item-7007854"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3511843"><label class="task-list-item-label" for="task-item-3511843"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1897030"><label class="task-list-item-label" for="task-item-1897030"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4731871"><label class="task-list-item-label" for="task-item-4731871"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1719044"><label class="task-list-item-label" for="task-item-1719044"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
