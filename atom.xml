@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-08-21T03:53:46.605Z</updated>
+    <updated>2020-08-28T06:35:41.709Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://lxl.cool/images/avatar.png</logo>
     <icon>https://lxl.cool/favicon.ico</icon>
     <rights>All rights reserved 2020, 饮冰室</rights>
+    <entry>
+        <title type="html"><![CDATA[整蛊专用——AI换脸]]></title>
+        <id>https://lxl.cool/zheng-gu-zhuan-yong-ai-huan-lian/</id>
+        <link href="https://lxl.cool/zheng-gu-zhuan-yong-ai-huan-lian/">
+        </link>
+        <updated>2020-08-28T05:47:05.000Z</updated>
+        <content type="html"><![CDATA[<p>       好久没更新了，总是不知道分享点什么好😅。<br>
+       今天来给大家分享个软件吧，最近B站上ＡＩ换脸的搞笑视频非常火，（也可以说是换嘴，就是拿一张照片，就可以制作成一个唱歌的视频，而且嘴型符合），大家可以看看下面这个视频体验一下：</p>
+<iframe src="//player.bilibili.com/player.html?aid=884348553&bvid=BV1AK4y1e7Mm&cid=226220681&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<p>       感觉怎么样，是不是很有意思，我这几天也做了好几个舍友的视频，做出来真的是太搞笑了哈哈哈哈哈哈哈哈哈哈哈哈！只要一张照片，谁的就可以做出来，取材特别方便。本来打算做几张老师的，但是做出来也不敢发，想想还是算了，别惹火上身了哈哈哈哈哈。<br>
+       我这几天研究了一下子，现在把方法教给大家，大家也可以自己做了。<br>
+       我下面放的这个视频是原博主的教学视频，大家跟着一步一步操作就可以了，我讲的只是视频中没有讲到的、需要注意的地方哦～（原视频链接：https://www.bilibili.com/video/BV19a4y177mn）</p>
+<iframe src="//player.bilibili.com/player.html?aid=669410835&bvid=BV19a4y177mn&cid=228856704&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<p>       首先，大家需要下载安装文件，是一个压缩包，１.５４Ｇ，我已经上传到我的博客网盘里了，大家点击标签栏上的“资源分享网盘”进入，或者直接复制网址进入，网址是<a href="http://xn--7g7caccbbqcc.xn--9i7ccd/">５２０５２１５２０.ｘｙｚ</a>，在“实用软件分享”文件夹里有个叫“仿制影片ＡＩ换脸”的ＲＡＲ压缩包，下载它。大家要是嫌麻烦的话，<a href="https://service-9w3nx6jy-1302319453.hk.apigw.tencentcs.com/release/aaa/%E5%AE%9E%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/%E4%BB%BF%E5%88%B6%E5%BD%B1%E7%89%87AI%E6%8D%A2%E8%84%B8.rar/">点击这里直接下载</a>，下载完成以后，解压、安装，大家按照上面视频里的步骤一步一步来就行了，要是有不懂不会的可以评论留言给我。<br>
+       视频教学里讲的已经足够详细了，我只说一点注意事项：<br>
+       １.安装的时候会弹出个对话框让输入密码，密码是ｑｉｎｇｑｉｎｇ６６６<br>
+       ２.这个软件对ＣＰＵ和显卡有要求，尽量不要点击“ｃｐｕ运行”，因为这样不仅时间长，而且在软件上也写了，可能会导致电脑锁定。如果大家显示的是显卡不足，不能运行的话，可以尝试一下点击“ｃｐｕ运行”，我的超薄本就运行不起来，只能通过点击“ｃｐｕ运行”才可以，缺点就是，做一个所用的时间太长了，我的笔记本做一个视频得用一个多小时才能完成。<br>
+       ３.关于照片素材的选取，有的地方说还要改像素，什么２５６×２５６才行，其实不用，你就截一个１:１的照片就行了。而且，嘴微微张开的最好，闭着嘴可还行，不过做出来可能看不到牙，显得不太自然；嘴张开的太大、牙齿漏太多也不好。<br>
+       ＣＰＵ和显卡好的电脑做一个视频两三分钟就可以了，确实是快，大家可以试试自己的电脑速度快不快。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[博客终于来跟大家见面了！]]></title>
         <id>https://lxl.cool/bo-ke-zhong-yu-lai-gen-da-jia-jian-mian-liao/</id>
@@ -321,16 +342,16 @@ Typroa 推荐使用两个*号。</p>
 </code></pre>
 <ul class="contains-task-list">
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5445650"><label class="task-list-item-label" for="task-item-5445650"> 吃饭</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2991740"><label class="task-list-item-label" for="task-item-2991740"> 吃饭</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-380342"><label class="task-list-item-label" for="task-item-380342"> 逛街</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2520090"><label class="task-list-item-label" for="task-item-2520090"> 逛街</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6420630"><label class="task-list-item-label" for="task-item-6420630"> 看电影</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7983699"><label class="task-list-item-label" for="task-item-7983699"> 看电影</label></p>
 </li>
 <li class="task-list-item">
-<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1272423"><label class="task-list-item-label" for="task-item-1272423"> 约泡</label></p>
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9812040"><label class="task-list-item-label" for="task-item-9812040"> 约泡</label></p>
 </li>
 </ul>
 <h3 id="列表">列表</h3>
@@ -375,59 +396,5 @@ Typroa 推荐使用两个*号。</p>
 </ol>
 </section>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[随笔杂谈（转自微博）]]></title>
-        <id>https://lxl.cool/sui-bi-za-tan/</id>
-        <link href="https://lxl.cool/sui-bi-za-tan/">
-        </link>
-        <updated>2020-05-04T19:00:07.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="一-关于兴趣">一、关于兴趣</h1>
-<p>​</p>
-<p>       因为这疫情，赋闲这么长时间在家，之前一直没时间玩、没时间做的都在这无聊的当儿一一玩了个遍，摸了个透。</p>
-<p>       最后我发现我真的是对植物一点都不感兴趣，可能只对冷冰冰的机械和程序、代码感兴趣，我想我当初真的应该去机电学院或者信院。不得不说，确实，兴趣才是最好的老师。</p>
-<p>       俗话说，女怕嫁错郎，男怕入错行😂 。不得不说，专业上写的那几个字对一个人发展的束缚还是蛮大的。马上就要毕业了，可能这神圣的大学四年也就成了人生中永远的一点遗憾了吧。之前一直不好意思或者是碍于面子不会这么直接直白地说出来承认，今天在这敢这么说出来也算是向前跨出了一步吧，彻底迈出了一个久滞的圈。话说，既然自己没有那种读了大学和专业以后果断放弃并回去重考、重新选择的勇气，那就走好前方的路吧还是。再细想想，谁又能做到自己做的就是自己喜欢的呢，不论是学习还是以后的工作、生活或者其他。随心所欲应该是每个人内心中的奢望吧。所以说，还是理性平常看待吧。（不想多展开细讲了）</p>
-<h1 id="二-关于blog">二、关于Blog</h1>
-<blockquote>
-<p>       最近迷上了博客（Blog），想搭建一个自己的博客网站。话说博客这东西，十几年前很流行，现在愈发变得越来越小众化了，而且门槛也比较高。</p>
-</blockquote>
-<h2 id="1-为什么想用blog">1、为什么想用Blog.</h2>
-<p>       先说说自己为什么想要用博客吧，我一直想有一个可以写自己所感所想的地方，灵活度要高，而且属于自己，不会被打扰。乐趣在于记录生活，而且也不在乎写了会立马被别人看到。它就安安静静的在那里，如果有幸能让您感兴趣来看看的话，在随便一个浏览器地址栏里输入我的地址就能进。它既可以分享东西给大家，也可以写自己的私密内容。博客就像自己的一片小天地，把它从无到有一点一滴地建立起来，可以随时更改它的格调和布局，不用拘泥于各种形式和条条框框。更不会被删帖和禁言。下面列几个最近发现的整的还比较不错的博客： <a href="https://www.zsxcool.com/">戳这里：博客1</a> <a href="https://yeming.site/">戳这里：博客2</a> <a href="https://blog.ixk.me/">戳这里：博客3</a></p>
-<p>       有人会问，你怎么不用微博呢？</p>
-<p>       首先，“微博”即“<strong>微</strong>型<strong>博</strong>客”的简称，它在做到方便的同时也牺牲了博客本身的美。它作为大众增强互动的工具还是不错的，但是在形式上也只能算是“微”博。一、我不喜欢强行把文字和图片割裂开，先写完一堆话，下面再加上几个图；二、就普通发微博而言，格式的选择太过于单调，没有字体格式（<font color=red>颜</font><font color=#008000>色</font>:<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathcolor="#4285f4"><mi>G</mi><mstyle mathcolor="#ea4335"><mi>o</mi><mstyle mathcolor="#fbbc05"><mi>o</mi><mstyle mathcolor="#4285f4"><mi>g</mi><mstyle mathcolor="#34a853"><mi>l</mi><mstyle mathcolor="#ea4335"><mi>e</mi></mstyle></mstyle></mstyle></mstyle></mstyle></mstyle></mrow><annotation encoding="application/x-tex">\color{#4285f4}{G}\color{#ea4335}{o}\color{#fbbc05}{o}\color{#4285f4}{g}\color{#34a853}{l}\color{#ea4335}{e}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord" style="color:#4285f4;"><span class="mord mathdefault" style="color:#4285f4;">G</span></span><span class="mord" style="color:#ea4335;"><span class="mord mathdefault" style="color:#ea4335;">o</span></span><span class="mord" style="color:#fbbc05;"><span class="mord mathdefault" style="color:#fbbc05;">o</span></span><span class="mord" style="color:#4285f4;"><span class="mord mathdefault" style="margin-right:0.03588em;color:#4285f4;">g</span></span><span class="mord" style="color:#34a853;"><span class="mord mathdefault" style="margin-right:0.01968em;color:#34a853;">l</span></span><span class="mord" style="color:#ea4335;"><span class="mord mathdefault" style="color:#ea4335;">e</span></span></span></span></span>、<font face="STCAIYUN">字体</font>、<strong>加粗</strong>、<em>倾斜</em>、等等），也没有段落格式（大小标题、首行缩进、居中、<table><tr><td bgcolor=yellow>背景</td></tr></table>、等等）（现在编辑的头条文章都没有🙃 ），有人会说，这样是方便了书写，随心所欲，不繁琐，我就发个动态还管它那么多。确实如此，可是，每个人写出来的都是这样的格式，乱七八糟堆上几个字，再最后附上个六九图；要不就是加上几个＃话题，再塞上几行字，下面弄上个视频，感觉还不如小学生在Word上写的观后感作文。图片和视频不能共存你告诉我是为什么？非要发两次才行？如今的互联网产品同质化太过于严重，而且操作简单弱智化，功能阉割化娱乐化，感觉都是同质于在发微信朋友圈，只不过是换了个圈子，换了个软件，修改了几项功能。不过也正常，在这个娱乐至死的时代，只要让用户觉得开心，简单，快乐，沉溺就好了呗，别的提升先不管，先把娱乐类的直播、聊天、热度，互动给搞上去。就类似于国产车，实打实的硬件功能不给改进，车里的娱乐、影音啥的全弄上。</p>
-<p>       其次，我感觉我现在越来越不想用微博了，不是掉进了粪坑就是掉进了🐔 窝……微博太浮躁了，功利心太强，戾气太重，文化垃圾太多。全都浮在热度上，沉不下去。就像初中高中的班主任常说的那样，“光景永远是看不够的”。而且我也不想追这个⭐ 那个⭐ 的。虚假的东西太多太多。我最恶心的就是不知廉耻的各种虚假人设。雪崩的时候没有一片雪花是无辜的。这方面我还是比较欣赏于大爷。好了好了，不谈圈，没有意义。<br>
-<img src="http://image.lxl.cool/img/1589360509089.jpeg" style="zoom:80%;" /></p>
-<center>麻麻～王源抽烟🚬 好帅啊！我也要学！</center>
-<hr>
-<blockquote>
-<p><font size=4>“工学者，巧心，劳力，造器物”</font></p>
-</blockquote>
-<h2 id="2-关于blog的一些想法">2、关于Blog的一些想法.</h2>
-<p>       额，扯远了，我的初步想法是，我想在我的博客网站上，一方面能够记录我的生活，每天写点小随笔，而且能在文章中配上拍的照片或者图片，写点心得体会；另一方面，我想建一个可以实时添加更新的带时间轴那种相册，可以设置每个相册的主题，进去可以根据时间轴上标注的事件名称纵览都发生过什么有趣的事情，而且每个相册还可以添加背景音乐还有其他等等的小部件啥的。我在想，我要是大一就开始弄就好了，能够把整个大学四年系统地记录下来。哈哈哈，人生总是充满着各种遗憾，时光也总是不能重来。</p>
-<p>       其他功能的话还没想好，可以根据需要再往上加。我看他们好多都在博客上分享各种小技巧和实用功能啥的，我感觉就我这水平，我还是往后稍稍吧😂</p>
-<p>       每次看到网上那些大神们的精美的博客，简直不能再羡慕。但是对于我这种学农的小白来说，真的可以说是心有余而力不足。理想很丰满，现实很骨感。一方面，对各种计算机语言和代码一窍不通，如看天书；另一方面，搭建一个个人博客，不仅前期得租域名，买服务器，买图床……买了域名还得去备案……而且还需要用Worldpress等平台开发博客。想想我头就大了。而且，一入侯门深似海，就跟会员一样，一旦打算开始每年租着域名了，就不可能停租了，不然域名一没，网站也就打不开了，长时间打理的心血也付之东流。我还是在纠结到底要不要整起来，又怕自己是心血来潮，当代恶臭年轻人，做啥也坚持不了多久。</p>
-<p>       之前也写过几篇博客，用的是Google的Blogger平台，基本功能比较完备，但还是略显简陋，而且最重要的一点是撰写和浏览都得翻墙，太不方便，而且评论功能做的也不太好。地址是https://a01aaa.blogspot.com/ <a href="https://a01aaa.blogspot.com/">戳这里可直达我的Google Blogger❤️ </a> 如果有谁感兴趣的话可以上去看看😂 没怎么太完善，而且用的是Google Blogger自带的网址，没有租自己的域名，也算是弃用了。注意需要科学上网。</p>
-<img src="http://image.lxl.cool/img/1589360593962.png" style="zoom: 25%;" />
-<p>       最近看了一些教程，找到了一些替代办法，比如可以用Gridea和GitHub Pages或者GitHub+Hexo搭建个人博客，但也还是很麻烦😷 唉……算了，Blog这个问题先搁置吧，等以后有空了再说吧，先慢慢了解学着基础知识，如果哪天我的博客真建成了，一定通知大家😂 。不过也千万别抱太大希望，说不定第二天我就忘了😂 又回到了“游戏它不香吗，抖音它不香吗”的咸鱼状态了😂 。</p>
-<p>       我感觉我就是那种，一有点什么想法就想写下来。相对于拍视频，拍Vlog，我觉得文字这东西更让人着迷，写完一篇文章也有助于自己思路的整理和各方面的提升，真的是可以将其作为一种享受的过程。但是如果是写自己不愿意写的东西，比如论文，＊＊汇报，总结等等的，那就另当别论了。</p>
-<hr>
-<p>       最后，给大家分享个有趣的东西，最近在研究域名的时候，发现现在各种中文域名也可以了哎😂</p>
-<p><img src="http://image.lxl.cool/img/1589360609878.png" alt="" loading="lazy"><br>
-       比如  .我爱你 这个域名就很有意思，很多用这个域名建的情侣空间，这几天找到的很多私人的都失效了，不知道是因为分手了还是咋了😂 只找到以下几个：</p>
-<center>张国荣.我爱你</center>
-<center>爹娘.我爱你</center>
-<center>路祥.我爱你</center>
-<p>       这三个随便一个复制（直接打字也行，字也不多）到浏览器地址栏里面都能直接打开，有点意思哈👍🏻 大家感兴趣的可以试试😂</p>
-<hr>
-<p>       唠唠叨叨写了这么多，净说了些没用的😂。 谁要是看到这里了应该都觉得无聊死了吧。在微博这个头条文章里写东西是真的累，什么格式也设置不了，光标还老是乱跳，一不小心字就打到别的地方去了……体验极差。我还是早日把我的博客提上日程吧……要不是没建好也不至于在这费这劲。而且这也没有表情可以选择……前面的表情都是输入法自带的……绝了。</p>
-<hr>
-<p>       最后，今天是五四青年节哎，在这里祝每一个看到这篇文章的朋友节日快乐～也希望这疫情早日结束😷 ，因为这疫情而耽误的人和事太多太多了。</p>
-<p>       武汉加油！湖北加油！祖国加油！</p>
-<p>       顺遂</p>
-<p>时祺</p>
-<p align="right">2020年5月4日</p>
-<hr>
-<center><font color=red>𝓘 &#160;𝓵𝓸𝓿𝓮 &#160;𝔂𝓸𝓾 &#160;𝓽𝓱𝓻𝓮𝓮 &#160;𝓽𝓱𝓸𝓾𝓼𝓪𝓷𝓭 &#160;𝓽𝓲𝓶𝓮𝓼 &#160;❤️</font></center>
-<center>🌹</center>]]></content>
     </entry>
 </feed>
