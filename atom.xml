@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2020-10-26T14:26:30.548Z</updated>
+    <updated>2020-10-26T14:30:53.666Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -38,6 +38,7 @@
 支持自动【签到】<br>
 支持【全民营业】活动自动赚金币</p>
 <p>GitHub链接：<a href="https://github.com/hyue418/taobao-11-11">https://github.com/hyue418/taobao-11-11</a></p>
+<p>ps：资源分享网盘最近出故障了，腾讯云的函数出了点毛病，由于最近一段时间要去防疫，每天太忙了，都抽不出时间来更新博客了，也还没有来得及处理，大家见谅哈，等过一阵子（可能得等疫情结束吧😅）再抽空看看，谢谢大家~~~</p>
 ]]></content>
     </entry>
     <entry>
