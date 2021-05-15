@@ -9,7 +9,7 @@
 <meta name="description" content="万般皆苦  ☭  唯有自渡">
 <meta name="theme-color" content="#66d9e8">
 <title>随笔杂谈（转自微博） | 饮冰室</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1611764355175">
+<link rel="shortcut icon" href="/favicon.ico?v=1621055544823">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -809,7 +809,7 @@
     <div class="footer-box">
   <footer class="footer">
     <div class="copyright">
-      
+ 
     </div>
     <div class="poweredby">
       <font color="red">万般皆苦  ☭  唯有自渡</font>
@@ -1582,34 +1582,24 @@ setInterval("createtime()",250);
   }
 
 </script>
-    <div class="light-box" id="light_box"></div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 <script>
-  let imgs = document.querySelectorAll('.post-body img');
-  let lightBox = document.querySelector('#light_box');
-  lightBox.addEventListener('mousedown', (e) => {
-    e.preventDefault()
-  })
-  lightBox.addEventListener('mousewheel', (e) => {
-    e.preventDefault()
-  })
-  let width = window.innerWidth * 0.8;
-  lightBox.onclick = () => {
-    let img = lightBox.querySelector('img');
-    lightBox.style = '';
-    img && img.remove();
-  }
-  imgs.forEach(item => {
-    item.onclick = function (e) {
-      let lightImg = document.createElement('img');
-      lightImg.src = this.src;
-      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
-      lightImg.style = `width: ${width}px;border-radius: 2px;`;
-      lightImg.onclick = function () {
-        lightBox.style = '';
-        this.remove();
-      }
-      lightBox.append(lightImg);
-    }
+  let images = document.querySelectorAll('.section img');
+  console.log(images);
+  images.forEach(image => {
+    var parent = image.parentElement;
+    var next = image.nextElementSibling;
+    parent.removeChild(image);
+    var aelem = document.createElement('a');
+    aelem.href = image.src;
+    aelem.dataset['fancybox'] = 'images';
+    aelem.dataset['rel'] = 'fancybox-button';
+    aelem.classList.add('fancybox');
+    aelem.appendChild(image);
+    parent.insertBefore(aelem, next);
   })
 </script>
     <div class="reward-mask" style="display: none;">
@@ -2199,16 +2189,16 @@ Typroa 推荐使用两个*号。&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul class=&#34;contains-task-list&#34;&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-9440174&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-9440174&#34;&gt; 吃饭&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-7945518&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-7945518&#34;&gt; 吃饭&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-919532&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-919532&#34;&gt; 逛街&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-1844320&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-1844320&#34;&gt; 逛街&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-4207779&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-4207779&#34;&gt; 看电影&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-5391456&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-5391456&#34;&gt; 看电影&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-2476212&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-2476212&#34;&gt; 约泡&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-9806541&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-9806541&#34;&gt; 约泡&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;列表&#34;&gt;列表&lt;/h3&gt;
@@ -2668,6 +2658,7 @@ Typroa 推荐使用两个*号。&lt;/p&gt;
 
 </script>
 <script src="/media/js/motion.js"></script>
+
 
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 <script>
