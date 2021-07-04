@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2021-07-04T14:32:56.337Z</updated>
+    <updated>2021-07-04T14:46:24.890Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://lxl.cool/images/avatar.png</logo>
     <icon>https://lxl.cool/favicon.ico</icon>
     <rights>All rights reserved 2021, 饮冰室</rights>
+    <entry>
+        <title type="html"><![CDATA[设置手机SIM卡PIN锁的重要性]]></title>
+        <id>https://lxl.cool/she-zhi-shou-ji-sim-qia-pin-suo-de-chong-yao-xing/</id>
+        <link href="https://lxl.cool/she-zhi-shou-ji-sim-qia-pin-suo-de-chong-yao-xing/">
+        </link>
+        <updated>2021-07-04T14:39:11.000Z</updated>
+        <content type="html"><![CDATA[<p>       现如今，信息安全已经成为了非常重要的问题，虽然目前各大软件在不断提升重要操作验证程序，其中最重要的就是手机验证码。所以说，一旦手机被偷或者不慎丢失，落到了不法分子手中，</p>
+<p>原文地址：<a href="https://cn.club.vmall.com/forum.php?mod=viewthread&amp;tid=25237500">由“一部手机失窃引发的惊心动魄的战争”一文谈SIM卡PIN锁的重要性！</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[压缩软件的分卷压缩功能及上传至蓝奏云网盘分享]]></title>
         <id>https://lxl.cool/ya-suo-ruan-jian-de-fen-juan-ya-suo-gong-neng-ji-shang-chuan-zhi-lan-zou-yun-wang-pan-fen-xiang/</id>
@@ -219,18 +229,6 @@
 </div>
 <center>桃李春风一杯酒，江湖夜雨十年灯</center>
 <center>祝朋友们都前程似锦！​🌹</center>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[分享一个AI论文去重小软件]]></title>
-        <id>https://lxl.cool/fen-xiang-yi-ge-ai-lun-wen-qu-chong-xiao-ruan-jian/</id>
-        <link href="https://lxl.cool/fen-xiang-yi-ge-ai-lun-wen-qu-chong-xiao-ruan-jian/">
-        </link>
-        <updated>2020-05-09T10:42:11.000Z</updated>
-        <content type="html"><![CDATA[<p>       最近发现了一个<strong>AI论文去重</strong>小软件（电脑版的）😀，分享给大家，作者上个月刚开发的，大家自己去他博客里下载吧，最近更新还挺勤快的，我在这就不放文件下载链接了。地址是<a href="https://ptype.info/2020/04/17/ai/"><strong>花生AI论文去重</strong></a>     https://ptype.info/2020/04/17/ai/<br>
-<img src="http://image.lxl.cool/img/1589021238578.png" alt="" loading="lazy"><br>
-       🙋最近需要写论文的同学可以试一下，我论文还没开始写所以就没法试试效果怎么样了。大家用过以后可以在这篇文章底下留言使用效果。</p>
-<p>       当然，如果大家还有什么好的降重或者查重工具，私发或者评论给我😘，谢谢哈哈哈哈哈🤓</p>
 ]]></content>
     </entry>
 </feed>
