@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2021-07-05T02:29:15.462Z</updated>
+    <updated>2021-07-05T03:14:31.552Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
@@ -11,12 +11,26 @@
     <icon>https://lxl.cool/favicon.ico</icon>
     <rights>All rights reserved 2021, 饮冰室</rights>
     <entry>
-        <title type="html"><![CDATA[嘘~手机端各大视频网站免费看（仅适用于鸿蒙、安卓）]]></title>
+        <title type="html"><![CDATA[嘘~电脑端各大视频网站免费看，破解百度文库，BiliBili、网页复制限制等各种黑科技]]></title>
+        <id>https://lxl.cool/xu-~dian-nao-duan-ge-da-shi-pin-wang-zhan-mian-fei-kan-po-jie-bai-du-wen-ku-bilibiliwang-ye-fu-zhi-xian-zhi-deng-ge-chong-hei-ke-ji/</id>
+        <link href="https://lxl.cool/xu-~dian-nao-duan-ge-da-shi-pin-wang-zhan-mian-fei-kan-po-jie-bai-du-wen-ku-bilibiliwang-ye-fu-zhi-xian-zhi-deng-ge-chong-hei-ke-ji/">
+        </link>
+        <updated>2021-07-05T02:54:57.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>       Violentmonkey Chrome是一款谷歌浏览器油猴插件，与Tampermonkey齐名，中文译名“暴力猴”，支持Userscripts.org、GreasyFork、OpenUserJS三大脚本下载源，拥有丰富实用的油猴脚本，都可以一键下载并应用。Violentmonkey 通过加载第三方的脚本文件，可以让整个网页大变样，也可以在网页中增加额外的功能。</p>
+</blockquote>
+<p>       今天给大家分享的是超级牛逼的东西。相信大家在电脑上使用浏览器的时候经常会受到各种限制，比如文字不让复制、百度文库无法复制、百度文库下载收费、看视频需要各大VIP、百度搜索广告多、广告无法跳过、各种登录弹窗、图片不让下载……等等等等，想必大家用电脑这么长时间以来一直都在默默忍受着。</p>
+<p><a href="https://violentmonkey.github.io/">暴力猴插件官网</a><br>
+<a href="https://a01a.lanzoui.com/iRUmJp9cane">暴力猴插件下载</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[嘘~手机端各大视频网站免费看]]></title>
         <id>https://lxl.cool/xu-~shou-ji-duan-ge-da-shi-pin-wang-zhan-mian-fei-kan-jin-gua-yong-yu-hong-meng-an-zhuo/</id>
         <link href="https://lxl.cool/xu-~shou-ji-duan-ge-da-shi-pin-wang-zhan-mian-fei-kan-jin-gua-yong-yu-hong-meng-an-zhuo/">
         </link>
         <updated>2021-07-05T01:47:02.000Z</updated>
-        <content type="html"><![CDATA[<p>       各大视频网站都需要会员才能观看，全都充值的话，耗资巨大，下面两个软件可以为大家提供便利。（涉及版权，详细的我在这就不多说了，大家下载后自己探索吧）两个文件都很好用，大家可以都安装，哪个好用用哪个。</p>
+        <content type="html"><![CDATA[<p>       各大视频网站都需要会员才能观看，全都充值的话，耗资巨大，下面两个软件可以为大家提供便利。（涉及版权，详细的我在这就不多说了，大家下载后自己探索吧）两个文件都很好用，大家可以都安装，哪个好用用哪个。IOS端我用的不太多，大家可以百度下载“鱼渔影视”，应该也可以用。</p>
 <p><a href="https://a01a.lanzoui.com/iCjKOr0l1cb"><strong>极光影院</strong></a><br>
 <a href="https://www.lanzoux.com/b625000"><strong>VIP终结者</strong></a></p>
 <hr>
@@ -216,23 +230,5 @@
 <p>       最近自己有好多感悟和想法，本来都想记录到这上面来着，结果一方面是因为太忙，没心思；另一方面也是因为没抽出空来整理思路、形成完整的语言体系。等以后抽出空来再仔细归纳整理吧。</p>
 <p>       就先酱吧，有好思路的时候就会更博的。最后，非常感谢大家能来到我的博客，进来的朋友们不用害羞不好意思的，欢迎大家在下面留言评论！我今天刚升级了后台，现在大家在昵称框里输入<font color=red><strong>QQ号</strong></font>，就会自动更换成QQ头像和昵称并填入QQ邮箱，还增加了<strong>打赏</strong>功能，各位壕壕们不要吝啬呀，哈哈哈哈哈，大家赶快来试一试吧~很好玩的。</p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[致谢]]></title>
-        <id>https://lxl.cool/zhi-xie/</id>
-        <link href="https://lxl.cool/zhi-xie/">
-        </link>
-        <updated>2020-05-13T04:12:16.000Z</updated>
-        <content type="html"><![CDATA[<div align=center><img src="http://image.lxl.cool/img/zhi-xie.png"> </div>
-<p>       哈哈哈，开个玩笑。😁<br>
-       当毕业论文写完了，致谢也敲完最后一个字的时候，那一刻，突然觉得，现在，是真的要和大学说<strong>再见</strong>了。不管有没有什么遗憾，也不管你舍不舍得，<strong>Time To Say Goodbye</strong>.😓</p>
-<hr>
-<p><img src="https://icon.qiantucdn.com/20200528/1b176157dc5d1879672e9eab33ceb5ba2" alt="" loading="lazy"><br>
-<img src="https://icon.qiantucdn.com/20200528/07ce0bc8e8bef2213e0f89e572ebbf5b2" alt="" loading="lazy"><br>
-<img src="http://image.lxl.cool/img/前程似锦.jfif" style="zoom: 50%;" /></p>
-<hr>
-<center>朝来庭下，光阴如箭。</center>
-<center>别离难，不似相逢好。</center>
-​<center>❤️</center>]]></content>
     </entry>
 </feed>
