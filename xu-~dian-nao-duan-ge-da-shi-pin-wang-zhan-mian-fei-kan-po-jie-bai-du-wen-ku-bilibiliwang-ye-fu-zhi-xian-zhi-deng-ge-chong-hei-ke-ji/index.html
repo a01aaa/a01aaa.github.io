@@ -9,7 +9,7 @@
 <meta name="description" content="万般皆苦  ☭  唯有自渡">
 <meta name="theme-color" content="#66d9e8">
 <title>嘘~电脑端各大视频网站免费看，破解百度文库，BiliBili、网页复制限制等各种黑科技 | 饮冰室</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1625454905925">
+<link rel="shortcut icon" href="/favicon.ico?v=1625456292360">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -255,7 +255,8 @@
       <div class="sidebar-body gemini" id="sidebar_body">
         
           
-            
+            <div class="post-side-meta" id="post_side_meta">
+              
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
@@ -337,6 +338,195 @@
 
 
 </div>
+            </div>
+            <div class="post-toc sidebar-body-active" id="post_toc" style="opacity: 1;">
+              <div class="toc-box right-motion">
+  <div class="toc-wrapper auto-number auto"
+    id="toc_wrapper">
+    <ul class="markdownIt-TOC">
+<li><a href="#%E6%9A%B4%E5%8A%9B%E7%8C%B4%E6%8F%92%E4%BB%B6%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85">暴力猴插件下载安装</a>
+<ul>
+<li><a href="#%E8%B0%B7%E6%AD%8Cchrome%E6%B5%8F%E8%A7%88%E5%99%A8">谷歌Chrome浏览器</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+</div>
+
+<script>
+
+  let lastTop = 0, lList = [], hList = [], postBody, lastIndex = -1;
+  let active = 'active-show', activeClass = 'active-current';
+  let tocWrapper = document.querySelector('#toc_wrapper');
+  let tocContent = tocWrapper.children[0];
+  let autoNumber = tocWrapper && tocWrapper.classList.contains('auto-number');
+
+  function addTocNumber(elem, deep) {
+    if (!elem) {
+      return;
+    }
+    let prop = elem.__proto__;
+
+    if (prop === HTMLUListElement.prototype) {
+      for (let i = 0; i < elem.children.length; i++) {
+        addTocNumber(elem.children[i], deep + (i + 1) + '.');
+      }
+    } else if (prop === HTMLLIElement.prototype) {
+      // 保存li元素
+      if (elem.children[0] && elem.children[0].__proto__ === HTMLAnchorElement.prototype) {
+        lList.push(elem);
+      }
+      for (let i = 0; i < elem.children.length; i++) {
+        let cur = elem.children[i];
+        if (cur.__proto__ === HTMLAnchorElement.prototype) {
+          if (autoNumber) {
+            cur.text = deep + ' ' + cur.text;
+          }
+        } else if (cur.__proto__ === HTMLUListElement.prototype) {
+          addTocNumber(cur, deep);
+        }
+      }
+    }
+  }
+
+  function removeParentActiveClass() {
+    let parents = tocContent.querySelectorAll('.' + active)
+    parents.forEach(function (elem) {
+      elem.classList.remove(active);
+    });
+  }
+
+  function addActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.add(activeClass);
+    }
+  }
+
+  function removeActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.remove(activeClass);
+    }
+  }
+
+  function addActiveLiElemment(elem, parent) {
+    if (!elem || elem === parent) {
+      return;
+    } else {
+      if (elem.__proto__ === HTMLLIElement.prototype) {
+        elem.classList.add(active);
+      }
+      addActiveLiElemment(elem.parentElement, parent);
+    }
+  }
+
+  function showToc() {
+    if (tocWrapper) {
+      postBody = document.querySelector('#post_body');
+      for (let i = 0; i < postBody.children.length; i++) {
+        if (postBody.children[i].__proto__ === HTMLHeadingElement.prototype) {
+          hList.push(postBody.children[i]);
+        }
+      }
+      if (tocWrapper.classList.contains('compress')) {
+        tocContent.classList.add('closed');
+      } else if (tocWrapper.classList.contains('no_compress')) {
+        tocContent.classList.add('expanded');
+      } else {
+        if (hList.length > 10) {
+          active = 'active-hidden'
+          tocContent.classList.add('closed');
+        } else {
+          tocContent.classList.add('expanded');
+        }
+      }
+    }
+  }
+
+  (function () {
+    // 处理不是从#一级标题开始目录
+    if (tocContent.children.length === 1 && tocContent.children[0].__proto__ === HTMLLIElement.prototype) {
+      let con = tocContent.children[0].children[0];
+      tocContent.innerHTML = con.innerHTML;
+    }
+    let markdownItTOC = document.querySelector('.markdownIt-TOC');
+    let innerHeight = window.innerHeight;
+    markdownItTOC.style = `max-height: ${innerHeight - 80 > 0 ? innerHeight - 80 : innerHeight}px`
+    addTocNumber(tocContent, '');
+  })();
+
+  document.addEventListener('scroll', function (e) {
+    if (lList.length <= 0) {
+      return;
+    }
+    let scrollTop = document.scrollingElement.scrollTop + 10;
+    let dir;
+
+    if (lastTop - scrollTop > 0) {
+      dir = 'up';
+    } else {
+      dir = 'down';
+    }
+
+    lastTop = scrollTop;
+    if (scrollTop <= 0) {
+      if (lastIndex >= 0 && lastIndex < hList.length) {
+        lList[lastIndex].classList.remove(activeClass);
+      }
+      return;
+    }
+
+    let current = 0, hasFind = false;
+    for (let i = 0; i < hList.length; i++) {
+      if (hList[i].offsetTop > scrollTop) {
+        current = i;
+        hasFind = true;
+        break;
+      }
+    }
+    if (!hasFind && scrollTop > lList[lList.length - 1].offsetTop) {
+      current = hList.length - 1;
+    } else {
+      current--;
+    }
+    if (dir === 'down') {
+      if (current > lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex)
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    } else {
+      if (current < lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex);
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    }
+  });
+
+
+  window.addEventListener('load', function () {
+    showToc();
+    document.querySelector('#sidebar').style = 'display: block;';
+    tocWrapper.classList.add('toc-active');
+    setTimeout(function () {
+      if ("createEvent" in document) {
+        let evt = document.createEvent("HTMLEvents");
+        evt.initEvent("scroll", false, true);
+        document.dispatchEvent(evt);
+      }
+      else {
+        document.fireEvent("scroll");
+      }
+    }, 500)
+  })
+
+</script>
+            </div>
           
         
       </div>
@@ -458,12 +648,12 @@
     
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
-      <span>1<span class="language" data-lan="minute">分钟</span></span>
+      <span>2<span class="language" data-lan="minute">分钟</span></span>
     </span>
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>235<span class="pc-show language" data-lan="words">字数</span></span>
+      <span>438<span class="pc-show language" data-lan="words">字数</span></span>
     </span>
     
     
@@ -480,9 +670,13 @@
               <blockquote>
 <p>       Violentmonkey Chrome是一款谷歌浏览器油猴插件，与Tampermonkey齐名，中文译名“暴力猴”，支持Userscripts.org、GreasyFork、OpenUserJS三大脚本下载源，拥有丰富实用的油猴脚本，都可以一键下载并应用。Violentmonkey 通过加载第三方的脚本文件，可以让整个网页大变样，也可以在网页中增加额外的功能。</p>
 </blockquote>
-<p>       今天给大家分享的是超级牛逼的东西。相信大家在电脑上使用浏览器的时候经常会受到各种限制，比如文字不让复制、百度文库无法复制、百度文库下载收费、看视频需要各大VIP、百度搜索广告多、广告无法跳过、各种登录弹窗、图片不让下载……等等等等，想必大家用电脑这么长时间以来一直都在默默忍受着。</p>
-<p><a href="https://violentmonkey.github.io/">暴力猴插件官网</a><br>
-<a href="https://a01a.lanzoui.com/iRUmJp9cane">暴力猴插件下载</a></p>
+<p>       相信大家在电脑上使用浏览器的时候经常会受到各种限制，比如文字不让复制、百度文库无法复制、百度文库下载收费、看视频需要各大VIP、百度搜索广告多、广告无法跳过、各种登录弹窗、图片不让下载……等等等等，想必大家用电脑这么长时间以来一直都在默默忍受着。下面我就给大家分享超级牛逼的东西——暴力猴。应该有朋友用过或者听说过谷歌浏览器的油猴插件，下载量一直位居榜首，也是神一样的存在。暴力猴插件相比油猴插件更方便一些，纯中文，且不需要自己找插件，只需要在想要安装插件的网页点击“为此站点查找脚本”即可查找本网站可以安装使用的插件，十分方便。<br>
+       下面我就给大家详细介绍这款插件的使用方法：</p>
+<h1 id="暴力猴插件下载安装">暴力猴插件下载安装</h1>
+<p>可以去官网看插件介绍，然后选择适合的浏览器进行下载：<a href="https://violentmonkey.github.io/">暴力猴插件官网</a><br>
+也可以点击以下链接直接进行下载：<a href="https://a01a.lanzoui.com/iRUmJp9cane">暴力猴插件下载</a><br>
+下载完成后，文件夹中会有一个.crx文件</p>
+<h2 id="谷歌chrome浏览器">谷歌Chrome浏览器</h2>
 
             </div>
             
@@ -1627,9 +1821,13 @@ setInterval("createtime()",250);
           &lt;blockquote&gt;
 &lt;p&gt;       Violentmonkey Chrome是一款谷歌浏览器油猴插件，与Tampermonkey齐名，中文译名“暴力猴”，支持Userscripts.org、GreasyFork、OpenUserJS三大脚本下载源，拥有丰富实用的油猴脚本，都可以一键下载并应用。Violentmonkey 通过加载第三方的脚本文件，可以让整个网页大变样，也可以在网页中增加额外的功能。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;       今天给大家分享的是超级牛逼的东西。相信大家在电脑上使用浏览器的时候经常会受到各种限制，比如文字不让复制、百度文库无法复制、百度文库下载收费、看视频需要各大VIP、百度搜索广告多、广告无法跳过、各种登录弹窗、图片不让下载……等等等等，想必大家用电脑这么长时间以来一直都在默默忍受着。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://violentmonkey.github.io/&#34;&gt;暴力猴插件官网&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://a01a.lanzoui.com/iRUmJp9cane&#34;&gt;暴力猴插件下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;       相信大家在电脑上使用浏览器的时候经常会受到各种限制，比如文字不让复制、百度文库无法复制、百度文库下载收费、看视频需要各大VIP、百度搜索广告多、广告无法跳过、各种登录弹窗、图片不让下载……等等等等，想必大家用电脑这么长时间以来一直都在默默忍受着。下面我就给大家分享超级牛逼的东西——暴力猴。应该有朋友用过或者听说过谷歌浏览器的油猴插件，下载量一直位居榜首，也是神一样的存在。暴力猴插件相比油猴插件更方便一些，纯中文，且不需要自己找插件，只需要在想要安装插件的网页点击“为此站点查找脚本”即可查找本网站可以安装使用的插件，十分方便。&lt;br&gt;
+       下面我就给大家详细介绍这款插件的使用方法：&lt;/p&gt;
+&lt;h1 id=&#34;暴力猴插件下载安装&#34;&gt;暴力猴插件下载安装&lt;/h1&gt;
+&lt;p&gt;可以去官网看插件介绍，然后选择适合的浏览器进行下载：&lt;a href=&#34;https://violentmonkey.github.io/&#34;&gt;暴力猴插件官网&lt;/a&gt;&lt;br&gt;
+也可以点击以下链接直接进行下载：&lt;a href=&#34;https://a01a.lanzoui.com/iRUmJp9cane&#34;&gt;暴力猴插件下载&lt;/a&gt;&lt;br&gt;
+下载完成后，文件夹中会有一个.crx文件&lt;/p&gt;
+&lt;h2 id=&#34;谷歌chrome浏览器&#34;&gt;谷歌Chrome浏览器&lt;/h2&gt;
 ">嘘~电脑端各大视频网站免费看，破解百度文库，BiliBili、网页复制限制等各种黑科技</a>
       </div>
       
@@ -2029,16 +2227,16 @@ Typroa 推荐使用两个*号。&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul class=&#34;contains-task-list&#34;&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-1756522&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-1756522&#34;&gt; 吃饭&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-388562&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-388562&#34;&gt; 吃饭&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-9317070&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-9317070&#34;&gt; 逛街&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-760478&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-760478&#34;&gt; 逛街&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-1231633&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-1231633&#34;&gt; 看电影&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-4562784&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-4562784&#34;&gt; 看电影&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;
-&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-9070402&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-9070402&#34;&gt; 约泡&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-9857805&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-9857805&#34;&gt; 约泡&lt;/label&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;列表&#34;&gt;列表&lt;/h3&gt;
