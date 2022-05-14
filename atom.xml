@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lxl.cool</id>
     <title>饮冰室</title>
-    <updated>2021-12-28T12:48:26.422Z</updated>
+    <updated>2022-05-14T00:26:32.771Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lxl.cool"/>
     <link rel="self" href="https://lxl.cool/atom.xml"/>
     <subtitle>十年饮冰，难凉热血</subtitle>
     <logo>https://lxl.cool/images/avatar.png</logo>
     <icon>https://lxl.cool/favicon.ico</icon>
-    <rights>All rights reserved 2021, 饮冰室</rights>
+    <rights>All rights reserved 2022, 饮冰室</rights>
     <entry>
         <title type="html"><![CDATA[终于参加了毕业典礼，穿上了学士服~（多图警告）]]></title>
         <id>https://lxl.cool/zhong-yu-can-jia-le-bi-ye-dian-li/</id>
